@@ -4,16 +4,21 @@ Materialien für meinen LaTeX-Kurs an der Fernuni Hagen, Jahr 2020
 
 Die Materialien können frei von jedermann genutzt und verändert werden, entsprechende Hinweise auf meine Urheberschaft werden aber gern gesehen.
 
-# Der Kurs
+## Der Kurs
 
 Der Kurs findet an mehreren Samstagen online statt, eine passende Software-Umgebung für die Kommunikation wird noch ausgewählt.
 
+## Was wird benötigt?
 
-# Kursinhalte
+* Ein Rechner (Laptop, Desktop) mit Windows oder MacOS (Linux geht auch, wenn die Kommunikationssoftware dafür verfügbar ist)
+* TeX Live 2020, herunterladen und installieren von tug.org/texlive. Linux: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
+* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor. 
+
+## Kursinhalte
 
 Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen und Teilnehmer. Den folgenden Ablauf plane ich:
 
-## Tag 1 - Grundlagen
+### Tag 1 - Grundlagen
 
 * Vorstellung der Beteiligten
 * Historie von TeX und LaTeX
@@ -21,18 +26,21 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Das erste Dokument
 * Klassen, Pakete, Umgebungen und Befehle
 * Strukturierte Dokumente
-ba## Tag 2 - Ta
 
+### Tag 2 - Tabellen, Mathematik, ...
 
+* Bilder
 * Mathematiksatz
+* Tabellensatz
 
-## Tag 3 
+### Tag 3 - Biliografien und Präsentationen
 
-* Bibliografien
+* Einfache Bibliografien
+* Komplexe Bibliografien mit biber und jabref
 * Präsentationen mit der Beamer-Klasse
 
-## Tag 4 
+### Tag 4 - Grafik
 
-* Integration (mit Python)
-* Automatisierung von Textsatz
+* Kurzeinführung TikZ
+* Automatisierung von Textsatz mit Python
 * Frage und Antwort
