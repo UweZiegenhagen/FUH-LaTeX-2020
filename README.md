@@ -8,7 +8,12 @@ Die Materialien können frei von jedermann genutzt und verändert werden, entspr
 
 Der Kurs findet an mehreren Samstagen online statt, eine passende Software-Umgebung für die Kommunikation wird noch ausgewählt.
 
-## Was wird benötigt?
+* Tag 1: TBD
+* Tag 2: TBD
+* Tag 3: TBD
+* Tag 4: TBD
+
+## Was wird benötigt
 
 * Ein Rechner (Laptop, Desktop) mit Windows oder MacOS (Linux geht auch, wenn die Kommunikationssoftware dafür verfügbar ist)
 * TeX Live 2020, herunterladen und installieren von tug.org/texlive. Linux: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
@@ -27,7 +32,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Klassen, Pakete, Umgebungen und Befehle
 * Strukturierte Dokumente
 
-### Tag 2 - Tabellen, Mathematik, ...
+### Tag 2 - Tabellen, Mathematik, und mehr
 
 * Bilder
 * Mathematiksatz
@@ -39,7 +44,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Komplexe Bibliografien mit biber und jabref
 * Präsentationen mit der Beamer-Klasse
 
-### Tag 4 - Grafik
+### Tag 4 - Fortgeschrittenes
 
 * Kurzeinführung TikZ
 * Automatisierung von Textsatz mit Python
