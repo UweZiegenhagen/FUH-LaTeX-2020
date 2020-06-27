@@ -8,10 +8,10 @@ Die Materialien können frei von jedermann genutzt und verändert werden, entspr
 
 Der Kurs findet an mehreren Samstagen online statt, eine passende Software-Umgebung für die Kommunikation wird noch ausgewählt.
 
-* Tag 1: 05.09.2020
-* Tag 2: 12.09.2020
-* Tag 3: 26.09.2020
-* Tag 4: 10.10.2020
+* **Tag 1**: 05.09.2020
+* **Tag 2**: 12.09.2020
+* **Tag 3**: 26.09.2020
+* **Tag 4**: 10.10.2020
 
 ## Was wird benötigt
 
