@@ -8,16 +8,16 @@ Die Materialien können frei von jedermann genutzt und verändert werden, entspr
 
 Der Kurs findet an mehreren Samstagen online statt, eine passende Software-Umgebung für die Kommunikation wird noch ausgewählt.
 
-* Tag 1: TBD
-* Tag 2: TBD
-* Tag 3: TBD
-* Tag 4: TBD
+* Tag 1: 05.09.2020
+* Tag 2: 12.09.2020
+* Tag 3: 26.09.2020
+* Tag 4: 10.10.2020
 
 ## Was wird benötigt
 
 * Ein Rechner (Laptop, Desktop) mit Windows oder MacOS (Linux geht auch, wenn die Kommunikationssoftware dafür verfügbar ist)
 * TeX Live 2020, herunterladen und installieren von tug.org/texlive. Linux: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
-* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor. 
+* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor.TeX Studio und Visual Studio Code kann ich ebenfalls empfehlen.
 
 ## Kursinhalte
 
@@ -34,6 +34,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 
 ### Tag 2 - Tabellen, Mathematik, und mehr
 
+* Referenzen
 * Bilder
 * Mathematiksatz
 * Tabellensatz
