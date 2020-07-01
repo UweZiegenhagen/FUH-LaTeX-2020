@@ -1,6 +1,6 @@
 # FUH-LaTeX-2020
 
-Materialien für meinen LaTeX-Kurs an der Fernuni Hagen, Jahr 2020
+Materialien für meinen LaTeX-Kurs bei der Studierendenschaft der Fernuni Hagen.
 
 Die Materialien können frei von jedermann genutzt und verändert werden, entsprechende Hinweise auf meine Urheberschaft werden aber gern gesehen.
 
@@ -17,7 +17,7 @@ Der Kurs findet an mehreren Samstagen online statt, eine passende Software-Umgeb
 
 * Ein Rechner (Laptop, Desktop) mit Windows oder MacOS (Linux geht auch, wenn die Kommunikationssoftware dafür verfügbar ist)
 * TeX Live 2020, herunterladen und installieren von tug.org/texlive. Linux: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
-* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor.TeX Studio und Visual Studio Code kann ich ebenfalls empfehlen.
+* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor. TeX Studio und Visual Studio Code kann ich ebenfalls empfehlen.
 
 ## Kursinhalte
 
@@ -39,7 +39,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Mathematiksatz
 * Tabellensatz
 
-### Tag 3 - Biliografien und Präsentationen
+### Tag 3 - Bibliografien und Präsentationen
 
 * Einfache Bibliografien
 * Komplexe Bibliografien mit biber und jabref
