@@ -13,6 +13,8 @@ Der Kurs findet an mehreren Samstagen online statt, eine passende Software-Umgeb
 * **Tag 3**: 07.11.2020
 * **Tag 4**: 21.11.2020
 
+Jeweils vermutlich von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15 Uhr.
+
 ## Was wird benötigt
 
 * Ein Rechner (Laptop, Desktop) mit Windows oder MacOS (Linux geht auch, wenn die Kommunikationssoftware dafür verfügbar ist)
