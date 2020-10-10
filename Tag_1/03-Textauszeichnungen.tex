@@ -1,0 +1,77 @@
+\documentclass[ngerman,12pt,parskip=half]{scrartcl}
+
+\usepackage{babel}
+\usepackage{blindtext}
+\usepackage{xcolor}
+\usepackage{paralist}
+
+\author{Uwe Ziegenhagen}
+\title{Mein allererstes \LaTeX-Dokument}
+
+\newcommand{\autor}[1]{\textbf{\textcolor{green}{#1}}}
+
+\begin{document}
+
+Hallo, ich bin ein \textbf{kurzer Text}, mit dem verschiedene \textit{Textauszeichnungen} gezeigt \textbf{\textit{werden }} sollen. 
+
+Ich kann auch \texttt{Typewriter-Text} darstellen, bei dem jedes Zeichen eine einheitliche Breite hat.
+
+\autor{Hermann Hesse} war ein deutscher Autor.
+
+\autor{Marc-Uwe Kling} ist ein moderner Autor.
+
+\begin{itemize}
+	\item Hallo
+	\item ich bin 
+	\item ein Dokument
+	\item das in \LaTeX 
+	
+	\begin{itemize}
+		\item Hallo
+		\item ich bin 
+		\item ein Dokument
+		\item das in \LaTeX
+		\item geschrieben
+		
+		\begin{itemize}
+			\item Hallo
+			\item ich bin 
+			\item ein Dokument
+			\item das in \LaTeX
+			\item geschrieben
+			\item wurde
+		\end{itemize}
+		
+		\item wurde
+	\end{itemize}
+	
+	
+	\item geschrieben
+	\item wurde
+\end{itemize}
+
+\begin{enumerate}
+	\item Hallo
+	\item ich bin 
+	\item ein Dokument
+	\item das in \LaTeX
+	\item geschrieben
+	\item wurde
+\end{enumerate}
+
+\begin{compactenum}[i]
+	\item Hallo
+	\item ich bin 
+	\item ein Dokument
+	\item das in \LaTeX
+	\item geschrieben
+	\item wurde
+\end{compactenum}
+
+
+\begin{description}
+	\item[Apfel] Äpfel sind Früchte
+	\item[Birne] Birnen sind auch Früchte
+\end{description}
+
+\end{document}
