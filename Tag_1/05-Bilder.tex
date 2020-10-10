@@ -1,0 +1,40 @@
+\documentclass[ngerman,10pt,parskip=half]{scrartcl}
+
+\usepackage{babel}
+\usepackage{blindtext}
+\usepackage{microtype}
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black}
+
+\begin{document}
+
+\listoffigures
+
+\blindtext
+
+\begin{figure}[htb]
+		\centering
+	\includegraphics[width=0.9\textwidth]{./Bilder/miau.jpg}
+	\caption{Das ist eine Katze}\label{fig:mieze}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./Bilder/miau.jpg}
+	\caption{Das ist die selbe Katze}\label{fig:miau}
+\end{figure}
+
+
+\blindtext
+
+\clearpage
+
+\blindtext
+
+Meine Katze ist total niedlich, siehe das Bild \ref{fig:miau} auf Seite \pageref{fig:miau}.
+
+
+
+\end{document}
