@@ -5,35 +5,32 @@
 \usepackage{microtype}
 \usepackage{graphicx}
 
+\usepackage{booktabs}
+
 \usepackage{hyperref}
 \hypersetup{colorlinks=true,linkcolor=black}
 
 \begin{document}
 
-\listoffigures
-
-\blindtext
-
-\begin{figure}[htb]
-		\centering
-	\includegraphics[width=0.9\textwidth]{./Bilder/miau.jpg}
-	\caption{Das ist eine Katze}\label{fig:mieze}
-\end{figure}
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[width=0.9\textwidth]{./Bilder/miau.jpg}
-	\caption{Das ist die selbe Katze}\label{fig:miau}
-\end{figure}
-
-
-\blindtext
+\listoftables
 
 \clearpage
 
-\blindtext
+\begin{tabular}{|l|c|r|p{5cm}|} \hline
+Hallo & bin & eine  & Tabelle \\	\hline
+ich 	& enthalte & Tabelleninhalte & und Zahlen enthalte ich auch, wenngleich nicht viele  \\ \hline
+3.1415927 & 42 & 2.788915 & 78787878 \\ \hline
+\end{tabular}
 
-Meine Katze ist total niedlich, siehe das Bild \ref{fig:miau} auf Seite \pageref{fig:miau}.
+\vspace*{3cm}
+
+\begin{tabular}{lcrp{5cm}} \toprule[1.5pt]
+	Hallo & bin & eine  & Tabelle \\	\midrule
+	ich 	& enthalte & Tabelleninhalte & und Zahlen enthalte ich auch, wenngleich nicht viele  \\ \hline
+	3.1415927 & 42 & 2.788915 & 78787878 \\ \bottomrule[1.5pt]
+\end{tabular}
+
+\vspace*{3cm}
 
 
 
