@@ -34,13 +34,18 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Das erste Dokument
 * Klassen, Pakete, Umgebungen und Befehle
 * Strukturierte Dokumente
+* Referenzen mit \label und \ref
+* Einfache Bilder einbetten
+* Tabellensatz
+
 
 ### Tag 2 - Tabellen, Mathematik, und mehr
 
-* Referenzen
-* Bilder
+* Zusammenfassung vom 1. Termin
+* Ein komplettes Dokument
 * Mathematiksatz
-* Tabellensatz
+* Mehr zum Bilder einbetten: subfigure
+* Mehr zum Tabellensatz: Am Dezimalpunkt ausrichten
 
 ### Tag 3 - Bibliografien und Präsentationen
 
