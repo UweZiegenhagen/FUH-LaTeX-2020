@@ -1,10 +1,34 @@
-\documentclass{beamer}
+\documentclass[ngerman]{beamer}
+
+\usepackage{babel}
+\usepackage{booktabs}
+
+\author{Uwe Ziegenhagen}
+\title{Meine erste Präsentation}
+\institute{Fernuni Hagen, Lehrstuhl Informatik}
+\date{09.10.2020}
+
+\usetheme{Hannover}
 
 \begin{document}
 
+\begin{frame}
+
+\maketitle
+	
+\end{frame}
+
+\begin{frame}
+	
+\tableofcontents
+	
+\end{frame}
+
+\section{Einleitung}
 
 \begin{frame}
 	\frametitle{Folientitel}
+	
 	\begin{itemize}
 		\item Hallo
 		\item Fernuni
@@ -13,8 +37,89 @@
 		\item bin 
 		\item Uwe
 	\end{itemize}
+
 \end{frame}
 	
+\begin{frame}
+	\frametitle{Folientitel}
+	
+	\begin{enumerate}
+		\item Hallo
+		\item Fernuni
+		\item Hagen
+		\item Ich 
+		\item bin 
+		\item Uwe
+	\end{enumerate}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Meine Katze}
+	
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./Bilder/miau.jpg}
+	\caption{Das ist eine Katze}\label{fig:mieze}
+\end{figure}
+	
+\end{frame}
+
+\subsection{Einleitung}
+
+\begin{frame}
+	\frametitle{Meine Tabelle}
+	
+\begin{table}
+	\caption{Die Überschrift der Tabelle}
+\begin{tabular}{llll} \toprule[1.5pt]
+	0,090328465	&	0,859042559	&	0,38670736	&	0,546301257	\\
+	0,329553309	&	0,886732678	&	0,996509183	&	0,155350897	\\
+	0,520792321	&	0,51146953	&	0,070896507	&	0,07723401	\\
+	0,083787622	&	0,944581919	&	0,022187306	&	0,231445556	\\
+	0,48734465	&	0,132974647	&	0,790750011	&	0,830813591	\\
+	0,520092724	&	0,999743171	&	0,867881981	&	0,272954061	\\
+	0,821664136	&	0,288274774	&	0,267472803	&	0,520247612	\\
+	3,1415927 & 42 & 2,788915 & 52,4546 \\ \bottomrule[1.5pt]
+\end{tabular}
+\end{table}
+	
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Fazit}
+	
+$\Rightarrow$ Karthago muss fallen!
+	
+$\rightarrow$ Karthago muss fallen!	
+	
+$\Leftarrow$ Karthago muss fallen!
+
+$\leftarrow$ Karthago muss fallen!	
+	
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Fazit}
+	
+	
+Ich bin ein Satz	
+\begin{equation}
+-\frac{p}{2} \pm \sqrt{   \left(\frac{p}{2}\right)^2  - q   }
+\end{equation} und werde abgesetzt gesetzt.
+
+Ich bin eine Formel $a^2+b^2=c^2$ in einem Satz mit TeX-Notation.
+
+Ich bin die gleiche Formel mit LaTeX \( a^2 + b^2 = c^2 \) Notation.
+
+\[  a^2 + b^2 = c^2 \]
+
+
+	
+\end{frame}
+
 
 	
 \end{document}
