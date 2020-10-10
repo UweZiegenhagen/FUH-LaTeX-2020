@@ -28,6 +28,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 ### Tag 1 - Grundlagen
 
 * Vorstellung der Beteiligten
+* Vorstellung von DANTE e.V.
 * Historie von TeX und LaTeX
 * Check der Umgebungen bzw. Installationen
 * Das erste Dokument
