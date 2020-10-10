@@ -1,6 +1,6 @@
 # FUH-LaTeX-2020
 
-Materialien für meinen LaTeX-Kurs bei der Studierendenschaft der Fernuni Hagen.
+Materialien für meinen LaTeX-Kurs bei der Studierendenschaft der Fernuni Hagen im Oktober und November 2020.
 
 Die Materialien können frei von jedermann genutzt und verändert werden, entsprechende Hinweise auf meine Urheberschaft werden aber gern gesehen.
 
@@ -13,7 +13,7 @@ Der Kurs findet an mehreren Samstagen online statt, eine passende Software-Umgeb
 * **Tag 3**: 07.11.2020
 * **Tag 4**: 21.11.2020
 
-Jeweils vermutlich von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15 Uhr.
+Jeweils von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15 Uhr. Als Plattform nutzen wir BigBlueButton, der Link wird per E-Mail versandt.
 
 ## Was wird benötigt
 
