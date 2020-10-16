@@ -60,3 +60,10 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Kurzeinführung TikZ
 * Automatisierung von Textsatz mit Python
 * Frage-und-Antwort-Teil: Was wollt ihr mit LaTeX machen?
+
+## Literaturempfehlungen
+
+Empfohlen werden:
+
+* Alle Bücher von Herbert Voß (https://www.lehmanns.de/search/quick?PHPSESSID=mi28bh61dhv2nu8keg4hjnkunumgi5ah&mediatype_id=&q=herbert+vo%C3%9F), insbesondere die Einführung
+* Der LaTeX Begleiter in der 2. Auflage (ist auch nicht mehr brandaktuell, bietet aber einen guten Überblick über LaTeX)
