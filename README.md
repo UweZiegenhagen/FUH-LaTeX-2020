@@ -38,23 +38,24 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Einfache Bilder einbetten
 * Tabellensatz
 
-
 ### Tag 2 - Tabellen, Mathematik, und mehr
 
 * Zusammenfassung vom 1. Termin
-* Ein komplettes Dokument
+* Wir bauen eine Vorlage für Seminar- und Abschlussarbeiten: titlepage, scrpage
 * Mathematiksatz
 * Mehr zum Bilder einbetten: subfigure
 * Mehr zum Tabellensatz: Am Dezimalpunkt ausrichten
 
 ### Tag 3 - Bibliografien und Präsentationen
 
+* Zusammenfassung vom 2. Termin
 * Einfache Bibliografien
 * Komplexe Bibliografien mit biber und jabref
 * Präsentationen mit der Beamer-Klasse
 
 ### Tag 4 - Fortgeschrittenes
 
+* Zusammenfassung vom 3. Termin
 * Kurzeinführung TikZ
 * Automatisierung von Textsatz mit Python
-* Frage und Antwort
+* Frage-und-Antwort-Teil: Was wollt ihr mit LaTeX machen?
