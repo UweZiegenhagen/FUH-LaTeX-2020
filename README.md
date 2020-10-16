@@ -41,6 +41,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 ### Tag 2 - Tabellen, Mathematik, und mehr
 
 * Zusammenfassung vom 1. Termin
+* Versionisierung von Dokumenten mit git & Github
 * Wir bauen eine Vorlage für Seminar- und Abschlussarbeiten: titlepage, scrpage
 * Mathematiksatz
 * Mehr zum Bilder einbetten: subfigure
