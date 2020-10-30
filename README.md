@@ -67,3 +67,8 @@ Empfohlen werden:
 
 * Alle Bücher von Herbert Voß (https://www.lehmanns.de/search/quick?PHPSESSID=mi28bh61dhv2nu8keg4hjnkunumgi5ah&mediatype_id=&q=herbert+vo%C3%9F), insbesondere die Einführung
 * Der LaTeX Begleiter in der 2. Auflage (ist auch nicht mehr brandaktuell, bietet aber einen guten Überblick über LaTeX)
+
+
+## Witzige Pakete
+
+* ducksay, https://ctan.mirror.norbert-ruehl.de/macros/latex/contrib/ducksay/
