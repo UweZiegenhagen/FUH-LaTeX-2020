@@ -1,0 +1,30 @@
+\documentclass[a4paper,12pt]{scrreprt}
+\usepackage[headsepline=0.5pt,footsepline=0.5pt]{scrlayer-scrpage}
+\usepackage[left=2cm,right=4cm]{geometry}
+\KOMAoptions{headwidth=1.1\textwidth,footwidth=1.1\textwidth}
+\usepackage{blindtext}
+ 
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+
+\automark[chapter]{section}
+\ohead[\headmark]{\headmark}
+\ofoot[\pagemark]{\pagemark}
+\ifoot[ifoot1]{ifoot2} % inner foot
+\ihead[ihead1]{ihead2} % inner head
+\cfoot[cfoot1]{cfoot2} % center foot
+\chead[chead1]{chead2} % center head
+ 
+\begin{document}
+\chapter{Hello}
+\section{World}
+ 
+\blindtext[10]
+ 
+ 
+ \chapter{Hello}
+\section{World}
+ 
+\blindtext[10]
+ 
+\end{document}
