@@ -1,10 +1,11 @@
-\documentclass[ngerman, 12pt,parskip=half]{scrreprt}
+\documentclass[a4paper, ngerman, 12pt,parskip=half]{scrreprt}
 \usepackage{babel} % für Silbentrennung, eingedeutschte Verzeichnisnamen, etc.
 \usepackage[utf8]{inputenc} % UTF8 Encoding
 \usepackage[T1]{fontenc}  % Lateinisches Alphabet (T2 für Russisch, etc.)
 \usepackage{booktabs} % für schöne Tabellen, siehe Termin 1
 \usepackage{blindtext}
 \usepackage{graphicx}
+\usepackage{microtype} % Mikrotypografie, mit optischem Randausgleich
 
 \begin{document}
 
@@ -16,7 +17,7 @@
 {\bfseries\huge Python und Perl im Vergleich -- Warum Python immer gewinnt! }
 
 \begin{center}
-	\includegraphics[width=4cm]{Bilder/Katze1}
+	\includegraphics[width=0.2\textwidth]{Bilder/Katze1}
 \end{center}
 
 \vfill
@@ -34,6 +35,14 @@ Köln, den \today
 
 In diesem Abschnitt wollen wir kurz die aktuelle Literatur zum Thema besprechen.	
 	
+\blindtext[10]
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{Bilder/Katze1}
+	\caption{Eine Miezekatze}\label{fig:katze1}
+\end{figure}
+
 \blindtext[10]
 	
 \end{document}

@@ -1,0 +1,29 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{document}
+
+\begin{figure}
+\centering
+\subcaptionbox{Eine Katze \label{cat1}}
+{\includegraphics[width=0.49\textwidth]{Bilder/Katze1}}
+\subcaptionbox{Die selbe Katze \label{cat2}}
+{\includegraphics[width=0.49\textwidth]{Bilder/Katze2}}
+\caption{Zwei Katzenbilder}\label{katzenbilder}
+\end{figure}
+
+Abbildung \ref{cat1} auf Seite \pageref{katzenbilder}
+
+Abbildung \ref{cat2} auf Seite \pageref{katzenbilder}
+
+Abbildung \ref{katzenbilder} auf Seite \pageref{katzenbilder}
+
+
+\end{document}
