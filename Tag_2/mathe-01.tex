@@ -1,0 +1,54 @@
+\documentclass[12pt,ngerman,parskip=full]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{paralist}
+\usepackage{xcolor}
+\usepackage{nicefrac}
+
+\begin{document}
+
+Hallo, ich bin eine $n$ Variable im normalen Textsatz.
+
+Hallo, ich bin eine \(n\) Variable im normalen Textsatz.
+
+Hallo, ich bin eine \(coole\) Variable im normalen Textsatz. % nicht so, Text in Formeln muss ausgezeichnet werden!
+
+Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo \(a^2+b^2 =c^{2^2}\) ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch \( \frac{z}{n}\) in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch \( \nicefrac{z}{n}\) in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch \( \nicefrac{355}{113}\) in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch in einem Absatz. Hallo ich bin ein Bruch mit griechischen Buchstaben  \( \nicefrac{\alpha \cdot \Pi }{\omega \times \Omega}\) in einem Absatz.
+
+\(  \overline{ab} \)
+
+\( \overline{Z_{1}}\,\overline{Z_{0}},  \overline{Z_{1}Z_{0}}  \)
+
+\( \overline{Z_{1}}\quad\overline{Z_{0}},  \overline{Z_{1}Z_{0}}  \)
+
+\( \overline{Z_{1}}\qquad\overline{Z_{0}},  \overline{Z_{1}Z_{0}}  \)
+
+\( a_1 + a_{2_3} = c_3  \)
+
+\( a_1^3 + a_{2_3} = c_{3^2}  \)
+
+\[  \sum_{i=1}^\infty i^2  \]
+
+\[  \prod_{i=1}^\infty i^2  \]
+
+\[ \lim_{i \rightarrow \infty} i^2  \]
+
+$$  - \frac{p}{2} \pm \sqrt{ \left(\frac{p}{2}\right)^2 - q  }    $$ % besser nicht nutzen!
+
+\[  - \frac{p}{2} \pm \sqrt{ \left(\frac{p}{2}\right)^2 - q  }    \] % so ist's besser
+
+\begin{equation}
+ - \frac{p}{2} \pm \sqrt{ \left(\frac{p}{2}\right)^2 - q  } \label{eq:quadform}
+\end{equation}
+
+Siehe Formel \ref{eq:quadform}
+
+\[  \sqrt[3]{ \left(\frac{p}{2}\right)^2 - q  }  \]
+
+\end{document}
+
