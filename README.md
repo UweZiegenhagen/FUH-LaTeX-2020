@@ -46,13 +46,15 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Wir bauen eine Vorlage für Seminar- und Abschlussarbeiten: titlepage, scrpage
 * Mathematiksatz
 * Mehr zum Bilder einbetten: subfigure
-* Mehr zum Tabellensatz: Am Dezimalpunkt ausrichten
-* Einheitensatz mit siunitx
+* Briefe mit scrlttr2
 
 ### Tag 3 - Bibliografien und Präsentationen
 
 * Fragen?
 * Zusammenfassung vom 2. Termin, Wiederholung
+* Mehr zum Tabellensatz: Am Dezimalpunkt ausrichten
+* Einheitensatz mit siunitx
+* Fonts für pdflatex
 * Einfache Bibliografien
 * Komplexe Bibliografien mit biber und jabref
 * Präsentationen mit der Beamer-Klasse
