@@ -1,0 +1,96 @@
+\documentclass[12pt,ngerman,parskip=full]{scrbook}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{paralist}
+\usepackage{xcolor}
+\usepackage{nicefrac}
+\usepackage{esvect}
+\usepackage{amsmath}
+\usepackage{blindtext}
+
+\begin{document}
+
+\chapter{bla}
+
+\begin{eqnarray}
+	y &=& mx + n \\
+	y^2x &=& m \cdot x + n 	\quad \text{Erweiterung um den Punkt}
+\end{eqnarray}
+
+\blindtext
+
+\begin{eqnarray}
+	y &=& mx + n \\
+	y^2x &=& m \cdot x + n 	\quad \text{Erweiterung um den Punkt}
+\end{eqnarray}
+
+\[
+\begin{array}{rcl}
+	y &=& mx + n \\
+	y^2x &=& m \cdot x + n 	
+\end{array}
+\]
+
+
+\chapter{bla}
+
+Formelnummern beginnen in jedem Kapitel neu mit 1.
+
+\begin{eqnarray}
+	y &=& mx + n \\
+	y^2x &=& m \cdot x + n 	\quad \text{Erweiterung um den Punkt}
+\end{eqnarray}
+
+\blindtext
+
+\begin{eqnarray}
+	y &=& mx + n \\
+	y^2x &=& m \cdot x + n 	\quad \text{Erweiterung um den Punkt}
+\end{eqnarray}
+
+\[
+\begin{array}{rcl}
+	y &=& mx + n \\
+	y^2x &=& m \cdot x + n 	
+\end{array}
+\]
+
+\[
+\bordermatrix{
+ & 2 & 3 & 4 \cr
+2 & 2.4 & 3 & 4 \cr 
+3 & 2.7 & 3 & 4 \cr
+4 & 2 & 3 & 4 \cr
+}
+\]
+
+% AMS Math Umgebungen
+
+\begin{align} % jede Zeile erhält eine Gleichungsnummer
+a &= xyz \cdot y \\
+a^2 &= x \cdot y^2 
+\end{align}
+
+\begin{align*} % keine Zeile erhält eine Gleichungsnummer
+	a &= xyz \cdot y \\
+	a^2 &= x \cdot y^2 
+\end{align*}
+
+
+\begin{alignat}{3}
+	a       &= xyz \cdot y &&= 3.1415927 \\
+	a^2 &= x \cdot y^2 &&= 2.785487487497498498 
+\end{alignat}
+
+\begin{alignat}{4}
+	a       &= xyz \cdot y &&= 3.1415927 &&&= 123 \\
+	a^2 &= x \cdot y^2 &&= 2.785487487497498498 &&&= 432 
+\end{alignat}
+
+\end{document}
+
