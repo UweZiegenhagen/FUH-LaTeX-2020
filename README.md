@@ -40,26 +40,30 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 
 ### Tag 2 - Tabellen, Mathematik, und mehr
 
+* Fragen?
 * Zusammenfassung vom 1. Termin
 * Versionisierung von Dokumenten mit git & Github
 * Wir bauen eine Vorlage für Seminar- und Abschlussarbeiten: titlepage, scrpage
 * Mathematiksatz
 * Mehr zum Bilder einbetten: subfigure
 * Mehr zum Tabellensatz: Am Dezimalpunkt ausrichten
+* Einheitensatz mit siunitx
 
 ### Tag 3 - Bibliografien und Präsentationen
 
-* Zusammenfassung vom 2. Termin
+* Fragen?
+* Zusammenfassung vom 2. Termin, Wiederholung
 * Einfache Bibliografien
 * Komplexe Bibliografien mit biber und jabref
 * Präsentationen mit der Beamer-Klasse
 
 ### Tag 4 - Fortgeschrittenes
 
-* Zusammenfassung vom 3. Termin
+* Fragen?
+* Zusammenfassung vom 3. Termin, Wiederholung
 * Kurzeinführung TikZ
 * Automatisierung von Textsatz mit Python
-* Frage-und-Antwort-Teil: Was wollt ihr mit LaTeX machen?
+* Frage-und-Antwort-Teil
 
 ## Literaturempfehlungen
 
