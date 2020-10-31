@@ -9,6 +9,13 @@
 \usepackage{paralist}
 \usepackage{xcolor}
 \usepackage{nicefrac}
+\usepackage{esvect}
+\usepackage{amsmath}
+
+% Wir definieren einen neuen Operator
+\makeatletter % behandle @ als Buchstaben
+\newcommand*\avg{\mathop{\operator@font avg}}
+\makeatother % behandle @ wieder als spezielles Zeichen
 
 \begin{document}
 
@@ -49,6 +56,18 @@ $$  - \frac{p}{2} \pm \sqrt{ \left(\frac{p}{2}\right)^2 - q  }    $$ % besser ni
 Siehe Formel \ref{eq:quadform}
 
 \[  \sqrt[3]{ \left(\frac{p}{2}\right)^2 - q  }  \]
+
+\[  \cdot, \cdots, \ddots, \ldots, \vdots, \dots    \]
+
+\[  \vec{a} + \vec{b}   \]
+
+\[  \vv{abc}   \]
+
+\(   \overbrace{a + b }^{ \text{1. Term} }   + \underbrace{a + b }_{ \text{2. Term} }   \)
+
+\[ sin \not= \sin  \]
+
+\[ \avg 12345  \]
 
 \end{document}
 
