@@ -6,6 +6,7 @@
 \usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage{microtype} % Mikrotypografie, mit optischem Randausgleich
+\usepackage{subcaption}
 
 \begin{document}
 
@@ -44,6 +45,23 @@ In diesem Abschnitt wollen wir kurz die aktuelle Literatur zum Thema besprechen.
 \end{figure}
 
 \blindtext[10]
+
+\begin{figure}
+	\centering
+	\subcaptionbox{Eine Katze \label{fig:cat1}}
+	{\includegraphics[width=0.49\textwidth]{Bilder/Katze1}}
+	\subcaptionbox{Die selbe Katze \label{fig:cat2}}
+	{\includegraphics[width=0.49\textwidth]{Bilder/Katze2}}
+	\caption{Zwei Katzenbilder}\label{fig:katzenbilder}
+\end{figure}
+
+Abbildung \ref{fig:cat1} auf Seite \pageref{fig:katzenbilder}
+
+Abbildung \ref{fig:cat2} auf Seite \pageref{fig:katzenbilder}
+
+Abbildung \ref{fig:katzenbilder} auf Seite \pageref{fig:katzenbilder}
+
+\blindtext[2]
 	
 \end{document}
 
