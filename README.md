@@ -52,12 +52,12 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 
 * Fragen?
 * Zusammenfassung vom 2. Termin, Wiederholung
-* Mehr zum Tabellensatz: Am Dezimalpunkt ausrichten
 * Einheitensatz mit siunitx
+* Mehr zum Tabellensatz: Am Dezimalpunkt ausrichten
 * Fonts für pdflatex
 * Einfache Bibliografien
 * Komplexe Bibliografien mit biber und jabref
-* Präsentationen mit der Beamer-Klasse
+* Mehr zu Präsentationen mit der Beamer-Klasse
 
 ### Tag 4 - Fortgeschrittenes
 
@@ -74,7 +74,12 @@ Empfohlen werden:
 * Alle Bücher von Herbert Voß (https://www.lehmanns.de/search/quick?PHPSESSID=mi28bh61dhv2nu8keg4hjnkunumgi5ah&mediatype_id=&q=herbert+vo%C3%9F), insbesondere die Einführung
 * Der LaTeX Begleiter in der 2. Auflage (ist auch nicht mehr brandaktuell, bietet aber einen guten Überblick über LaTeX)
 
+## Weitere Links
 
-## Witzige Pakete
+* https://open.hpi.de/courses/git2020 Git Kurs beim HPI
+* Meine Briefvorlage https://www.uweziegenhagen.de/?p=3290
+
+
+## Witzige LaTeX-Pakete
 
 * ducksay, https://ctan.mirror.norbert-ruehl.de/macros/latex/contrib/ducksay/
