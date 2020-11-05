@@ -52,8 +52,10 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 
 * Fragen?
 * Zusammenfassung vom 2. Termin, Wiederholung
+* Andere Editoren: TeXworks und Visual Studio Code
+* Schneller TeX mit Autohotkey & Co
 * Einheitensatz mit siunitx
-* Mehr zum Tabellensatz: Am Dezimalpunkt ausrichten
+* Tabellensatz: Am Dezimalpunkt ausrichten
 * Fonts für pdflatex
 * Einfache Bibliografien
 * Komplexe Bibliografien mit biber und jabref
