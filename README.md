@@ -56,7 +56,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Schneller TeX mit Autohotkey & Co
 * Einheitensatz mit siunitx
 * Tabellensatz: Am Dezimalpunkt ausrichten
-* Fonts für pdflatex
+* Fonts für pdflatex, der LaTeX Font Katalog (https://tug.org/FontCatalogue/)
 * Einfache Bibliografien
 * Komplexe Bibliografien mit biber und jabref
 * Mehr zu Präsentationen mit der Beamer-Klasse
@@ -66,6 +66,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Fragen?
 * Zusammenfassung vom 3. Termin, Wiederholung
 * Kurzeinführung TikZ
+* XeLaTeX und LuaLaTeX
 * Automatisierung von Textsatz mit Python
 * Frage-und-Antwort-Teil
 
