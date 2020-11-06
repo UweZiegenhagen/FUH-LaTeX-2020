@@ -61,6 +61,8 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Komplexe Bibliografien mit biber und jabref
 * Mehr zu Präsentationen mit der Beamer-Klasse
 
+Bitte Jabref installieren, kostet nichts und ist sehr gut.
+
 ### Tag 4 - Fortgeschrittenes
 
 * Fragen?
@@ -81,7 +83,7 @@ Empfohlen werden:
 
 * https://open.hpi.de/courses/git2020 Git Kurs beim HPI
 * Meine Briefvorlage https://www.uweziegenhagen.de/?p=3290
-
+* Biblatex Cheat Sheet, https://www.ctan.org/tex-archive/info/biblatex-cheatsheet
 
 ## Witzige LaTeX-Pakete
 
