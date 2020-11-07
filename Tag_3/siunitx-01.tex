@@ -1,12 +1,13 @@
 %!TEX TS-program = Arara
 % arara: pdflatex: {shell: yes}
-\documentclass[12pt,ngerman]{scrartcl}
+\documentclass[12pt,ngerman,parskip=half]{scrartcl}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{babel}
 \usepackage{graphicx}
-\usepackage{siunitx,booktabs}
+\usepackage{siunitx}
+\usepackage{booktabs}
 
 \begin{document}
 
@@ -21,12 +22,14 @@
 34.2345 \\
 -6.7835 \\
 90.473 \\
-5642.5 \\
+5642,5 \\
 1.2e3 \\
-e4 \\
+1e4 \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\section{Winkel}
 
 \ang{10}
 
@@ -35,10 +38,13 @@ e4 \\
 \ang{10,456}
 
 
+\section{Zahlen}
 
-
+\num{3,1415926}
 
 \num{3.1415927e23}
+
+\section{Einheiten}
 
 \si{m^2}
 
@@ -52,13 +58,15 @@ e4 \\
 
 \SI{3.1415927}{m^2}
 
-\numlist{1;2;3;45;6598}
+\numlist{1;2;3;45;6598; 879}
 
 \numrange{1}{10}
 
 \SIlist{1;2;3;45;6598}{m^2}
 
-\SIrange{1}{10}{m^{-2}}
+Die Räume im Haus waren \SIlist{10;20;23;80}{m^2} groß.
+
+\SIrange{1}{10}{m^2}
 
 
 \end{document}
