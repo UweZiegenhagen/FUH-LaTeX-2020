@@ -1,5 +1,5 @@
 \documentclass[ngerman]{scrartcl}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{babel}
 \usepackage{xcolor}
@@ -13,12 +13,15 @@
 % for prettyref
 \newrefformat{eq}{\textup{(\ref{#1})}}
 \newrefformat{cha}{Kapitel \ref{#1}}
-\newrefformat{sec}{Abschnitt \ref{#1}}
+\newrefformat{sec}{Abschnitt \ref{#1} auf der schönen Seite \pageref{#1}}
 \newrefformat{tab}{Tabelle \ref{#1} auf Seite \pageref{#1}}
 \newrefformat{fig}{Abbildung \ref{#1} auf Seite \pageref{#1}}
 \usepackage{showlabels}
  
 \begin{document}
+
+Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße. Ich bin allein und freue mich meines Lebens in dieser Gegend, die für solche Seelen geschaffen \marginpar{Hallo, Notiz} ist wie die meine. Ich bin so glücklich, mein Bester, so ganz in dem Gefühle von ruhigem Dasein versunken, daß meine Kunst darunter leidet. Ich könnte jetzt nicht zeichnen, nicht einen Strich, und bin nie ein größerer Maler gewesen als in diesen Augenblicken, siehe für genauere Informationen. 
+
  
 \section{Erster Abschnitt}\label{sec:erst}
  
