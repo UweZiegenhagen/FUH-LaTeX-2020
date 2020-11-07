@@ -1,0 +1,180 @@
+% https://de.overleaf.com/learn/latex/Beamer_Presentations:_A_Tutorial_for_Beginners_(Part_4)%E2%80%94Overlay_Specifications
+\documentclass[ngerman]{beamer}
+
+\usepackage{babel}
+\usepackage{booktabs}
+\usepackage{siunitx}
+
+\author{Uwe Ziegenhagen}
+\title{Meine erste Präsentation}
+\institute{Fernuni Hagen, Lehrstuhl Informatik}
+\date{09.10.2020}
+
+\usetheme{Hannover}
+
+\begin{document}
+
+\begin{frame}
+
+\maketitle
+	
+\end{frame}
+
+\begin{frame}
+	
+\tableofcontents
+	
+\end{frame}
+
+\section{Einleitung}
+
+\begin{frame}
+	\frametitle{Folientitel}
+	
+	\begin{itemize}
+		\item Hallo
+		\item Fernuni
+		\item Hagen
+		\item Ich 
+		\item bin 
+		\item Uwe
+	\end{itemize}
+
+\end{frame}
+	
+\begin{frame}
+	\frametitle{Folientitel}
+	
+	\begin{enumerate}
+		\item Hallo
+		\item Fernuni
+		\item Hagen
+		\item Ich 
+		\item bin 
+		\item Uwe
+	\end{enumerate}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Meine Katze}
+	
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./Bilder/miau.jpg}
+	\caption{Das ist eine Katze}\label{fig:mieze}
+\end{figure}
+	
+\end{frame}
+
+\subsection{Einleitung}
+
+\begin{frame}
+	\frametitle{Meine Tabelle}
+	
+\begin{table}
+	\caption{Die Überschrift der Tabelle}
+\begin{tabular}{lll} \toprule[1.5pt]
+	0,859042559	&	0,38670736	&	0,546301257	\\
+	0,886732678	&	0,996509183	&	0,155350897	\\
+	0,51146953	&	0,070896507	&	0,07723401	\\
+	0,944581919	&	0,022187306	&	0,231445556	\\
+	0,132974647	&	0,790750011	&	0,830813591	\\
+	0,999743171	&	0,867881981	&	0,272954061	\\
+	0,288274774	&	0,267472803	&	0,520247612	\\
+	42,0 & 2,788915 & 52,4546 \\ \bottomrule[1.5pt]
+\end{tabular}
+\end{table}
+	
+\end{frame}
+
+\begin{frame}
+\frametitle{}
+
+\begin{columns}
+\begin{column}{0.48\textwidth}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{./Bilder/miau.jpg}
+	\caption{Das ist eine Katze}\label{fig:mieze}
+\end{figure}
+
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{itemize}
+	\item Das
+	\item ist 
+	\item eine
+	\item weiße
+	\item Mieze-
+	\item katze
+	\end{itemize}
+\end{column}
+
+\end{columns}
+
+
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Fazit}
+	
+\begin{itemize}
+	\item $\Rightarrow$ Karthago muss fallen! \pause
+	\item $\rightarrow$ Karthago muss fallen!	\pause
+	\item $\Leftarrow$ Karthago muss fallen! \pause
+	\item $\leftarrow$ Karthago muss fallen!	
+\end{itemize}	
+
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{Fazit 2}
+	
+\begin{itemize}
+	\item<1->  $\Rightarrow$ Karthago muss fallen! 
+	\item<2->  $\rightarrow$ Karthago muss fallen!	
+	\item<3->  $\Leftarrow$ Karthago muss fallen! 
+	\item<4->  $\leftarrow$ Karthago muss fallen!	
+\end{itemize}	
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Fazit 3}
+	
+\begin{itemize}
+	\item<-2,4>  $\Rightarrow$ Karthago muss fallen! 
+	\item<3->  $\rightarrow$ Karthago muss fallen!	
+	\item<1->  \textcolor<2>{orange}{$\Leftarrow$ Karthago muss fallen!} 
+	\item<4->  $\leftarrow$ Karthago muss fallen!	
+\end{itemize}	
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Fazit}
+	
+	
+Ich bin ein Satz	
+\begin{equation}
+-\frac{p}{2} \pm \sqrt{   \left(\frac{p}{2}\right)^2  - q   }
+\end{equation} und werde abgesetzt gesetzt.
+
+Ich bin eine Formel $a^2+b^2=c^2$ in einem Satz mit TeX-Notation.
+
+Ich bin die gleiche Formel mit LaTeX \( a^2 + b^2 = c^2 \) Notation.
+
+\[  a^2 + b^2 = c^2 \]
+
+
+	
+\end{frame}
+
+
+	
+\end{document}
