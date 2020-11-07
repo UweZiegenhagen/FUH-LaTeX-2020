@@ -1,0 +1,78 @@
+\documentclass[ngerman]{scrartcl}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{xcolor}
+ 
+% sinnloser Text 
+\usepackage{blindtext}
+
+\usepackage{varioref}
+\usepackage{prettyref}
+ 
+% for prettyref
+\newrefformat{eq}{\textup{(\ref{#1})}}
+\newrefformat{cha}{Kapitel \ref{#1}}
+\newrefformat{sec}{Abschnitt \ref{#1}}
+\newrefformat{tab}{Tabelle \ref{#1} auf Seite \pageref{#1}}
+\newrefformat{fig}{Abbildung \ref{#1} auf Seite \pageref{#1}}
+\usepackage{showlabels}
+ 
+\begin{document}
+ 
+\section{Erster Abschnitt}\label{sec:erst}
+ 
+\blindtext[3]
+ 
+\begin{figure}[h]%
+\rule{\columnwidth}{5cm}
+\caption{Hallo Welt!}%
+\label{fig:test1}%
+\end{figure}
+ 
+\blindtext[1]
+ 
+\section{Zweiter Abschnitt}
+ 
+\blindtext[5]
+ 
+\begin{figure}%
+\rule{\columnwidth}{5cm}
+\caption{Hallo Welt!}%
+\label{fig:test2}%
+\end{figure}
+ 
+\blindtext[4]
+ 
+\begin{itemize}
+	\item Ohne Paket: Siehe Abbildung \textcolor{red}{\ref{fig:test1}} auf Seite \textcolor{red}{\pageref{fig:test1}}
+	\item Varioref: Siehe Abbildung \textcolor{red}{\vref{fig:test1}}
+	\item Varioref: Siehe die Abbildung \textcolor{red}{\vpageref{fig:test1}}
+	\item Ohne Paket: Siehe Abbildung \textcolor{red}{\ref{fig:test2}} auf Seite \textcolor{red}{\pageref{fig:test2}}
+	\item Varioref: Siehe Abbildung \textcolor{red}{\vpageref{fig:test2}}
+	\item Varioref: Siehe Abbildung \textcolor{red}{\vref{fig:test2}}
+	\item Varioref: Siehe Abbildungen \textcolor{red}{\vrefrange{fig:test1}{fig:test2}}
+	\item Varioref: Siehe die Abbildungen \textcolor{red}{\vpagerefrange{fig:test1}{fig:test2}}
+	\item Prettyref: \textcolor{red}{\prettyref{fig:test1}}
+	\item Prettyref: \textcolor{red}{\prettyref{sec:erst}}
+	\item Varioref: Siehe Abbildung \textcolor{red}{\vref{fig:test3}}
+	\item Varioref: Siehe Abbildung \textcolor{red}{\vref{fig:test4}}
+\end{itemize}
+ 
+\clearpage 
+ 
+\begin{figure}%
+\rule{\columnwidth}{5cm}
+\caption{Hallo Welt!}%
+\label{fig:test3}%
+\end{figure}
+ 
+\clearpage 
+ 
+\begin{figure}%
+\rule{\columnwidth}{5cm}
+\caption{Hallo Welt!}%
+\label{fig:test4}%
+\end{figure}
+ 
+\end{document}
