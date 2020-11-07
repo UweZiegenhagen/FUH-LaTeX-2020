@@ -67,6 +67,8 @@ Bitte Jabref installieren, kostet nichts und ist sehr gut.
 
 * Fragen?
 * Zusammenfassung vom 3. Termin, Wiederholung
+* Arara in TeXworks konfigurieren
+* Effizient TeXen mit Autohotkey
 * Kurzeinführung TikZ
 * XeLaTeX und LuaLaTeX
 * Automatisierung von Textsatz mit Python
@@ -88,3 +90,4 @@ Empfohlen werden:
 ## Witzige LaTeX-Pakete
 
 * ducksay, https://ctan.mirror.norbert-ruehl.de/macros/latex/contrib/ducksay/
+* Penrose Patterns mit TikZ, https://www.ctan.org/pkg/penrose
