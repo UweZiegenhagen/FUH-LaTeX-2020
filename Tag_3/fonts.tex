@@ -1,0 +1,42 @@
+\documentclass[12pt,ngerman,parskip=half]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{blindtext}
+\usepackage{microtype}
+
+\newcommand{\setzeschrift}[2]{\fontfamily{#1}\selectfont {\section*{#2}} \blindtext[4]\clearpage}
+
+\begin{document}
+
+\setzeschrift{cmr}{Computer Modern}
+\setzeschrift{cmss}{Computer Modern Sans Serif}
+\setzeschrift{antt}{Antikwa Torunska}
+\setzeschrift{bch}{Bitstream Charter}
+\setzeschrift{ccr}{Computer Concrete}
+\setzeschrift{DejaVuSerif-TLF}{DejaVu}
+\setzeschrift{fav}{Arev}
+\setzeschrift{fi4}{Inconsolata}
+\setzeschrift{fxb}{Linux Biolinum}
+\setzeschrift{fxl}{Linux Libertine}
+\setzeschrift{fvs}{Bitstream Vera Sans}
+\setzeschrift{jkp}{Kepler}
+\setzeschrift{pag}{Avant Garde}
+\setzeschrift{pbk}{Bookman}
+\setzeschrift{pcr}{Courier}
+\setzeschrift{phv}{Helvetica}
+\setzeschrift{pnc}{New Century Schoolbook}
+\setzeschrift{ppl}{Palatino}
+\setzeschrift{ptm}{Times}
+\setzeschrift{put}{Utopia}
+\setzeschrift{pzc}{Zapf Chancery}
+\setzeschrift{qzc}{TeXgyre Chorus}
+\setzeschrift{uncl}{Uncial}
+\setzeschrift{yes}{Electrum}
+\setzeschrift{yly}{Libris}
+\setzeschrift{yvt}{Venturis}
+
+\end{document}
+
+Quelle: LaTeX Einführung von Herbert Voß
