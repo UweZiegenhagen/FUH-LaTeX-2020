@@ -19,11 +19,11 @@ Jeweils von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15 Uhr.
 
 * Ein Rechner (Laptop, Desktop) mit Windows oder MacOS (Linux geht auch, wenn die Kommunikationssoftware dafür verfügbar ist)
 * TeX Live 2020, herunterladen und installieren von tug.org/texlive. Linux: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
-* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor. TeX Studio und Visual Studio Code kann ich ebenfalls empfehlen.
+* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor. TeX Studio und Visual Studio Code (mit der LaTeX Workshop Erweiterung von James Yu) kann ich ebenfalls empfehlen.
 
 ## Kursinhalte
 
-Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen und Teilnehmer. Den folgenden Ablauf plane ich:
+Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen und Teilnehmer, mit dem folgenden Ablauf plane ich:
 
 ### Tag 1 - Grundlagen
 
