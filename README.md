@@ -31,10 +31,10 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Vorstellung von DANTE e.V.
 * Historie von TeX und LaTeX
 * Check der Umgebungen bzw. Installationen
-* Das erste Dokument
+* Das erste Dokument "Hello \LaTeX"
 * Klassen, Pakete, Umgebungen und Befehle
 * Warum man article, report und book nicht nutzen sollte -- die KOMA Klassen
-* Strukturierte Dokumente, Inhaltverzeichnisse
+* Strukturierte Dokumente, ``\chapter``, ``\section`` & Co, Inhaltverzeichnisse
 * Referenzen mit ``\label`` und ``\ref``
 * Float-Objekte in LaTeX
 * Einfache Bilder einbetten, Bilderverzeichnisse
@@ -54,14 +54,15 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 
 * Fragen?
 * Zusammenfassung vom 2. Termin, Wiederholung
-* Andere Editoren: TeXworks und Visual Studio Code
+* Andere Editoren: ``TeXworks`` und ``Visual Studio Code``
 * Schneller TeX mit Autohotkey & Co
 * Einheitensatz mit ``siunitx``
-* Tabellensatz: Am Dezimalpunkt ausrichten
+* Fuß- und Randnoten -- ``\footnote`` and ``\marginpar``
+* Tabellensatz: Am Dezimalpunkt ausrichten mit dem "S" Spaltentyp von ``siunitx``
 * Fonts für ``pdflatex``, der LaTeX Font Katalog (https://tug.org/FontCatalogue/)
-* Einfache Bibliografien
-* Komplexe Bibliografien mit ``biber`` und ``jabref``
-* Mehr zu Präsentationen mit der Beamer-Klasse
+* Einfache Bibliografien -- die ``thebibliography`` Umgebung
+* Komplexe Bibliografien mit ``biblatex``, ``biber`` und ``jabref``
+* Mehr zu Präsentationen mit der ``Beamer``-Klasse
 
 Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 
@@ -73,8 +74,8 @@ Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 * Effizient TeXen mit`` Autohotkey``
 * Umrahmte (farbige) Boxen mit ``tcolorbox``
 * Kurzeinführung ``TikZ``
-* ``luaLaTeX`` versus ``pdflatex``
-* Automatisierung von Textsatz mit Python
+* ``luaLaTeX`` versus ``pdflatex``, Nutzung von Systemschriften in LaTeX
+* Grundlagen der Automatisierung von Textsatz mit Python (Ein Weg, Serienbriefe zu erzeugen...)
 * Frage-und-Antwort-Teil
 
 ## Literaturempfehlungen
