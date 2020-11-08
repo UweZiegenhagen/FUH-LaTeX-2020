@@ -1,0 +1,40 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+\documentclass[12pt,ngerman,parskip=half]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{paralist}
+\usepackage{xcolor, blindtext}
+
+\begin{document}
+
+\blindtext Siehe auch \cite{texbook} für weitere Informationen.
+
+
+
+
+\begin{thebibliography}{9}
+
+\bibitem{texbook}
+  Donald E. Knuth,
+  \textit{The \TeX book},
+  Addison Wesley, Massachusetts,
+  2nd edition,
+  1984.
+
+\bibitem{concretemath}
+  Donald E. Knuth,
+  \textit{Concrete Mathematics: A Foundation for Computer Science},
+  Addison Wesley, Massachusetts,
+  2nd edition,
+  1994.
+  
+
+\end{thebibliography}
+
+\end{document}

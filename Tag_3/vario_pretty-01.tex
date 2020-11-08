@@ -1,0 +1,83 @@
+\documentclass[ngerman]{scrartcl}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+ 
+\usepackage{blindtext}
+\usepackage{varioref}
+\usepackage{prettyref}
+ 
+\newrefformat{eq}{\textup{(\ref{#1})}}
+\newrefformat{lem}{Lemma \ref{#1}}
+\newrefformat{thm}{Theorem \ref{#1}}
+\newrefformat{cha}{Kapitel \ref{#1}}
+\newrefformat{sec}{Abschnitt \ref{#1}}
+\newrefformat{tab}{Tabelle \ref{#1} auf Seite \pageref{#1}}
+\newrefformat{fig}{Abbildung \ref{#1} auf Seite \pageref{#1}}
+\usepackage{showlabels}
+ 
+\begin{document}
+ 
+\section{Erster Abschnitt}\label{sec:erst}
+ 
+\blindtext[1]
+ 
+\blindtext[1]
+ 
+\blindtext[1]
+ 
+\begin{figure}%
+\rule{\columnwidth}{5cm}
+\caption{Hallo Welt!}%
+\label{fig:test1}%
+\end{figure}
+ 
+\blindtext[1]
+ 
+\section{Zweiter Abschnitt}
+ 
+\blindtext[1]
+ 
+\blindtext[1]
+ 
+\blindtext[1]
+ 
+\blindtext[1]
+ 
+\blindtext[1]
+ 
+\begin{figure}%
+\rule{\columnwidth}{5cm}
+\caption{Hallo Welt!}%
+\label{fig:test2}%
+\end{figure}
+ 
+\blindtext[1]
+ 
+\blindtext[1]
+ 
+\blindtext[1]
+ 
+\blindtext[1]
+ 
+a) Siehe Abbildung \ref{fig:test1} auf Seite \pageref{fig:test1}
+ 
+b) Siehe die Abbildung \vpageref{fig:test1}
+ 
+c) Siehe Abbildung \vref{fig:test1}
+ 
+d) Siehe Abbildung \ref{fig:test2} auf Seite \pageref{fig:test2}
+ 
+e) Siehe Abbildung \vpageref{fig:test2}
+ 
+f) Siehe Abbildung \vref{fig:test2}
+ 
+g) Siehe Abbildungen \vrefrange{fig:test1}{fig:test2}
+ 
+h) Siehe die Abbildungen \vpagerefrange{fig:test1}{fig:test2}
+ 
+i) \prettyref{fig:test1}
+ 
+j) \prettyref{sec:erst}
+ 
+\end{document}

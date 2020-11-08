@@ -1,0 +1,20 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+% arara: pdflatex: {shell: yes}
+\documentclass[ngerman]{scrartcl}
+\usepackage{babel}
+\usepackage{varioref}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\begin{document}
+ 
+\section{Erster Abschnitt}\label{sec}
+ 
+\begin{figure}
+\rule{\textwidth}{1cm}
+\caption{bild}\label{bild}
+\end{figure}
+ 
+Siehe \vref{sec}, siehe \vref{bild}
+ 
+\end{document}
