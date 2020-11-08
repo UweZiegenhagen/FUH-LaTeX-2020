@@ -1,0 +1,64 @@
+\documentclass[parskip=half,fontsize=12pt,ngerman]{scrartcl}
+ 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{paralist}
+\usepackage{xcolor} 
+
+% https://tex.stackexchange.com/questions/425098/which-opentype-math-fonts-are-available
+ 
+\usepackage{blindtext}
+ 
+\usepackage{fontspec}%
+
+%\setsansfont{Curlz MT}
+%\setmainfont{Comic Sans MS}
+%\setmonofont{Blackadder ITC}
+
+\usepackage{unicode-math}
+\setmainfont[Ligatures={Common,Rare,TeX}]{TeX Gyre Pagella}
+\setmathfont[Scale=MatchUppercase]{Asana Math}
+%\setsansfont[ItalicFont={Cambria Italic},BoldFont={Cambria Bold},BoldItalicFont={Cambria Bold Italic}]{Cambria}
+%\setmainfont[ItalicFont={Calibri Italic},BoldFont={Calibri Bold},BoldItalicFont={Calibri Bold Italic}]{Calibri}
+%\setmonofont[ItalicFont={Consolas Italic},BoldFont={Consolas Bold},BoldItalicFont={Consolas Bold Italic}]{Consolas}
+%\usepackage{unicode-math}
+%\setmathfont{Cambria Math}
+
+\newfontfamily\comic{Comic Sans MS}
+
+\newfontfamily{\comicb}
+  [Ligatures=TeX, % 
+   UprightFont={*},
+   ItalicFont={* Italic},
+   BoldFont={* Bold},
+   BoldItalicFont={* Bold Italic}]
+  {Comic Sans MS}
+
+
+\begin{document}
+
+\section{Einleitung}
+
+\blindtext[3]
+
+\[
+- \frac{p}{2} \pm \sqrt{ \left( \frac{p}{2}\right)^2 -q  }
+\]
+
+\texttt{Ich bin ein Satz im Mono Font}
+
+{\fontspec{Comic Sans MS} Hallo Uwe}
+
+{\comic Hallo Uwe}
+
+{\comicb\bfseries\itshape Hallo Uwe}
+
+{\comicb\itshape Hallo Uwe}
+
+{\comicb\bfseries\itshape Hallo Uwe}
+
+\end{document}
