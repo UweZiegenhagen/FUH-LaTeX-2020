@@ -6,14 +6,14 @@ Die Materialien können frei von jedermann genutzt und verändert werden, entspr
 
 ## Der Kurs
 
-Der Kurs findet an mehreren Samstagen online statt, eine passende Software-Umgebung für die Kommunikation wird noch ausgewählt.
+Der Kurs findet an mehreren Samstagen online statt, als Plattform nutzen wir BigBlueButton, der Link wird per E-Mail versandt.
 
 * **Tag 1**: 10.10.2020
 * **Tag 2**: 31.10.2020
 * **Tag 3**: 07.11.2020
 * **Tag 4**: 21.11.2020
 
-Jeweils von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15 Uhr. Als Plattform nutzen wir BigBlueButton, der Link wird per E-Mail versandt.
+Jeweils von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15 Uhr.
 
 ## Was wird benötigt
 
