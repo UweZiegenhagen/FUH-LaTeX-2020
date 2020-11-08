@@ -33,20 +33,22 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Check der Umgebungen bzw. Installationen
 * Das erste Dokument
 * Klassen, Pakete, Umgebungen und Befehle
-* Strukturierte Dokumente
-* Referenzen mit \label und \ref
-* Einfache Bilder einbetten
-* Tabellensatz
+* Warum man article, report und book nicht nutzen sollte -- die KOMA Klassen
+* Strukturierte Dokumente, Inhaltverzeichnisse
+* Referenzen mit ``\label`` und ``\ref``
+* Float-Objekte in LaTeX
+* Einfache Bilder einbetten, Bilderverzeichnisse
+* Tabellensatz und Tabellenverzeichnisse
 
 ### Tag 2 - Tabellen, Mathematik, und mehr
 
 * Fragen?
 * Zusammenfassung vom 1. Termin
 * Versionisierung von Dokumenten mit git & Github
-* Wir bauen eine Vorlage für Seminar- und Abschlussarbeiten: titlepage, scrpage
-* Mathematiksatz
-* Mehr zum Bilder einbetten: subfigure
-* Briefe mit scrlttr2
+* Wir bauen eine Vorlage für Seminar- und Abschlussarbeiten: ``titlepage``, ``scrpage``
+* Mathematiksatz (mit und ohne ``amsmath``)
+* Mehr zum Bilder einbetten: ``subfigure``
+* Briefe setzen mit ``scrlttr2``
 
 ### Tag 3 - Bibliografien und Präsentationen
 
@@ -54,23 +56,23 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 * Zusammenfassung vom 2. Termin, Wiederholung
 * Andere Editoren: TeXworks und Visual Studio Code
 * Schneller TeX mit Autohotkey & Co
-* Einheitensatz mit siunitx
+* Einheitensatz mit ``siunitx``
 * Tabellensatz: Am Dezimalpunkt ausrichten
-* Fonts für pdflatex, der LaTeX Font Katalog (https://tug.org/FontCatalogue/)
+* Fonts für ``pdflatex``, der LaTeX Font Katalog (https://tug.org/FontCatalogue/)
 * Einfache Bibliografien
-* Komplexe Bibliografien mit biber und jabref
+* Komplexe Bibliografien mit ``biber`` und ``jabref``
 * Mehr zu Präsentationen mit der Beamer-Klasse
 
-Bitte Jabref installieren, kostet nichts und ist sehr gut.
+Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 
 ### Tag 4 - Fortgeschrittenes
 
 * Fragen?
 * Zusammenfassung vom 3. Termin, Wiederholung
-* Arara in TeXworks konfigurieren
-* Effizient TeXen mit Autohotkey
+* ``Arara`` in TeXworks konfigurieren
+* Effizient TeXen mit`` Autohotkey``
 * Umrahmte (farbige) Boxen mit ``tcolorbox``
-* Kurzeinführung TikZ
+* Kurzeinführung ``TikZ``
 * ``luaLaTeX`` versus ``pdflatex``
 * Automatisierung von Textsatz mit Python
 * Frage-und-Antwort-Teil
