@@ -69,8 +69,9 @@ Bitte Jabref installieren, kostet nichts und ist sehr gut.
 * Zusammenfassung vom 3. Termin, Wiederholung
 * Arara in TeXworks konfigurieren
 * Effizient TeXen mit Autohotkey
+* Umrahmte (farbige) Boxen mit ``tcolorbox``
 * Kurzeinführung TikZ
-* XeLaTeX und LuaLaTeX
+* ``luaLaTeX`` versus ``pdflatex``
 * Automatisierung von Textsatz mit Python
 * Frage-und-Antwort-Teil
 
