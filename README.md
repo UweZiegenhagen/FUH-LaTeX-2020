@@ -72,6 +72,7 @@ Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 * Zusammenfassung vom 3. Termin, Wiederholung
 * ``Arara`` in TeXworks konfigurieren
 * Effizient TeXen mit`` Autohotkey``
+* Schöne Matrizen mit ``nicematrix``
 * Umrahmte (farbige) Boxen mit ``tcolorbox``
 * Kurzeinführung ``TikZ``
 * ``luaLaTeX`` versus ``pdflatex``, Nutzung von Systemschriften in LaTeX
