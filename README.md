@@ -70,7 +70,9 @@ Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 
 * Fragen?
 * Zusammenfassung vom 3. Termin, Wiederholung
+* https://ctan.mc1.root.project-creative.net/info/first-packages/first-packages.html
 * ``Arara`` in TeXworks konfigurieren
+* Quellcode-Listings einfügen
 * Effizient TeXen mit`` Autohotkey``
 * Schöne Matrizen mit ``nicematrix``
 * Umrahmte (farbige) Boxen mit ``tcolorbox``
