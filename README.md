@@ -94,7 +94,8 @@ Empfohlen werden:
 * Meine Briefvorlage https://www.uweziegenhagen.de/?p=3290
 * Biblatex Cheat Sheet, https://www.ctan.org/tex-archive/info/biblatex-cheatsheet
 
-## Witzige LaTeX-Pakete
+## Witzige oder interessante LaTeX-Pakete
 
 * ducksay, https://ctan.mirror.norbert-ruehl.de/macros/latex/contrib/ducksay/
 * Penrose Patterns mit TikZ, https://www.ctan.org/pkg/penrose
+* pst-eucl für euklidische Geometrie https://www.ctan.org/pkg/pst-eucl
