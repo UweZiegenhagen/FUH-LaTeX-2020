@@ -1,0 +1,91 @@
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{listings}
+ 
+\lstset{literate=%
+    {Ö}{{\"O}}1
+    {Ä}{{\"A}}1
+    {Ü}{{\"U}}1
+    {ß}{{\ss}}1
+    {ü}{{\"u}}1
+    {ä}{{\"a}}1
+    {ö}{{\"o}}1
+    {~}{{\textasciitilde}}1
+}
+
+\definecolor{colBack}{rgb}{1,1,0.8}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{1,0,0}
+\definecolor{colString}{rgb}{0,0.5,0}
+
+\lstset{%
+    float=hbp,%
+    basicstyle=\ttfamily\footnotesize, %
+    identifierstyle=\color{colIdentifier}, %
+    keywordstyle=\color{colKeys}, %
+    stringstyle=\color{colString}, %
+    commentstyle=\color{colComments}, %
+    columns=flexible, %
+    tabsize=2, %
+    frame=single, %
+    extendedchars=true, %
+    showspaces=false, %
+    showstringspaces=false, %
+    numbers=left, %
+    numberstyle=\tiny, %
+    breaklines=true, %
+    backgroundcolor=\color{colBack}, %
+    breakautoindent=true, %
+    captionpos=b%
+}
+
+\begin{document}
+    \begin{lstlisting}[language={[LaTeX]TeX}]
+	\documentclass[12pt,ngerman]{scrartcl}
+	
+	\usepackage[utf8]{inputenc}
+	\usepackage[T1]{fontenc}
+	\usepackage{booktabs}
+	\usepackage{babel}
+	\usepackage{graphicx}
+	\usepackage{csquotes}
+	\usepackage{paralist}
+	\usepackage{xcolor}
+	
+	\begin{document}
+	
+	
+	\end{document}
+   \end{lstlisting}
+   
+
+\begin{lstlisting}[language={Python}]
+from shutil import copyfile
+from os import unlink
+ 
+# copy file
+copyfile('dtk-authoryear.bbx'  , './dtk-bibliography/dtk-authoryear.bbx')
+copyfile('dtk-authoryear.dbx'  , './dtk-bibliography/dtk-authoryear.dbx')
+copyfile('dtk-bibliography.pdf', './dtk-bibliography/dtk-bibliography.pdf')
+copyfile('dtk-bibliography.tex', './dtk-bibliography/dtk-bibliography.tex')
+ 
+# create the zip file
+with zipfile.ZipFile('dtk-bibliography.zip', 'w', zipfile.ZIP_DEFLATED) as z:
+    z.write('./dtk-bibliography/README.md')
+    z.write('./dtk-bibliography/dtk-authoryear.bbx')
+    z.write('./dtk-bibliography/dtk-authoryear.dbx')
+    z.write('./dtk-bibliography/dtk-bibliography.pdf')
+    z.write('./dtk-bibliography/dtk-bibliography.tex')
+ 
+# delete copied files
+unlink('./dtk-bibliography/dtk-authoryear.bbx')
+unlink('./dtk-bibliography/dtk-authoryear.dbx')
+unlink('./dtk-bibliography/dtk-bibliography.pdf')
+unlink('./dtk-bibliography/dtk-bibliography.tex')
+\end{lstlisting}
+
+\lstinputlisting[language={Python},basicstyle=\ttfamily\tiny,linerange={1-12},caption={Auszug aus der Präambel dieser Präsentation},label={lis:py01}]{Pythoncode.py}
+   
+\end{document}
