@@ -1,0 +1,61 @@
+\documentclass[16pt,ngerman]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{eso-pic,calc} 
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{paralist}
+\usepackage{xcolor}  
+\usepackage[landscape,bottom=1.5cm]{geometry} % left=0pt,right=0pt,top=0pt,bottom=0pt
+\usepackage{palatino,dashrule}
+\usepackage{pgfornament}
+\pagestyle{empty}
+
+\setlength{\parindent}{0pt}
+
+\makeatletter
+\AddToShipoutPicture{%
+  \begingroup 
+    \setlength{\@tempdima}{2mm}%
+    \setlength{\@tempdimb}{\paperwidth-\@tempdima-3cm}%
+    \setlength{\@tempdimc}{\paperheight-\@tempdima}%
+    \put(\LenToUnit{\@tempdima},\LenToUnit{\@tempdimc}){%
+            \pgfornament[color=black,anchor=north west,width=3cm]{63}} 
+    \put(\LenToUnit{\@tempdima},\LenToUnit{\@tempdima}){%
+            \pgfornament[color=black,anchor=south west,width=3cm,symmetry=h]{63}}
+    \put(\LenToUnit{\@tempdimb},\LenToUnit{\@tempdimc}){%
+            \pgfornament[color=black,anchor=north east,width=3cm,symmetry=v]{63}} 
+    \put(\LenToUnit{\@tempdimb},\LenToUnit{\@tempdima}){%
+            \pgfornament[color=black,anchor=south east,width=3cm,symmetry=c]{63}}    
+  \endgroup  
+} 
+\let\strippt\strip@pt     
+\makeatother   
+
+
+\begin{document}
+
+\centering\Huge
+
+\textbf{Zertifikat}
+\vspace{20mm}
+\begin{center}
+Uwe Ziegenhagen%\hdashrule[0.75ex]{14cm}{1pt}{3mm}
+\end{center}
+\vspace{1cm}\huge
+
+hat erfolgreich am zweitägigen \LaTeX-Kurs der FernUni Hagen teilgenommen. \vspace{2cm}\LARGE\flushleft
+
+Hagen, \hfill\hdashrule[0.75ex]{9.5cm}{1pt}{2mm}
+
+10. Juni 2018
+
+\begin{center}
+\vfill\pgfornament[width=0.7\textwidth]{88}
+\end{center}
+\end{document}
+
+

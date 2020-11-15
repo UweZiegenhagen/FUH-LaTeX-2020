@@ -1,0 +1,45 @@
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{tikz}
+
+% Sucht nach minimaltikz.pdf im Netz
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1.5,
+    punkt/.style={circle, minimum size = 1cm,blue,fill=yellow},
+]
+
+\draw[help lines,gray,thin] (0,0) grid (10,5);
+
+\draw [->,very thick] (0,0) -- (5,0);
+\draw [->,very thick] (0,0) -- (0,5);
+\draw [very thick] (0,0) -- (1,2) -- (3,3);
+\draw [dashed, ultra thick] (5,5) -- (2,2);
+
+\node  [punkt] at (7,3){Knoten};
+
+\node [below] at (4,2) {below};
+\node [above] at (4,2) {above};
+\node [left] at (4,2) {left};
+\node [right] at (4,2) {right};
+
+\node[] (A) at (9,1){A};
+\node[draw] (B) at (8,4){B};
+\draw (A) -- (B);
+
+\end{tikzpicture}
+
+
+\begin{tikzpicture}[scale=1.5]
+\draw[help lines,gray,thin] (0,0) grid (10,5);
+\draw[line width=1pt] (0,0) .. controls (2,3) and (4,1) .. (5,4); % cubic bezier curve
+
+\draw (0,0) -- (2,3); % (0,0) to 2. point
+\draw (5,4) -- (4,1); % (1,1) to 3. point
+\end{tikzpicture}
+
+\end{document}

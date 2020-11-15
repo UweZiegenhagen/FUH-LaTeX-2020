@@ -1,0 +1,48 @@
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+
+\usepackage{smartdiagram}
+
+\begin{document}
+
+
+\begin{center}
+\smartdiagram[circular diagram]{Analysieren, Agieren, Prüfen}
+\end{center}
+
+
+\begin{center}
+\usetikzlibrary{shapes.geometric} % required in the preamble
+\smartdiagramset{module shape=diamond,
+font=\scriptsize,
+module minimum width=1cm,
+module minimum height=1cm,
+text width=1cm,
+circular distance=2cm,
+circular final arrow disabled=true,
+}
+\smartdiagram[circular diagram:clockwise]{Analysieren, Agieren, Prüfen}
+\end{center}
+
+\begin{center}
+\smartdiagram[bubble diagram]{
+Build a program,Set up,Run,Analyze,Modify~/\\ Add,Check
+}
+\end{center}
+
+\begin{center}
+\smartdiagramset{set color list={orange!60, green!50!lime!60,magenta!60,
+blue!50!cyan},
+uniform connection color=true
+}
+\smartdiagram[constellation diagram]{
+Build a program,Set up,Run,Analyze,Modify~/\\ Add
+}
+\end{center}
+
+
+
+\end{document}

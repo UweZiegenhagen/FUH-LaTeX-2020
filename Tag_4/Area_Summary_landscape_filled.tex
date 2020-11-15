@@ -1,0 +1,183 @@
+\documentclass[fontsize=10pt]{scrartcl}
+\usepackage[a4paper,landscape,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+
+\usepackage[]{ifdraft}
+\usepackage[]{attachfile}
+\usepackage[]{eso-pic}
+
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\renewcommand{\familydefault}{\sfdefault}
+\RequirePackage[scaled=0.9]{helvet}
+\usepackage{tikz}
+\usepackage[right]{showlabels}
+\usetikzlibrary{positioning}
+\pagestyle{empty}
+ 
+\usepackage{xcolor}
+
+\ifdraft{
+\definecolor{mycol}{RGB}{255,255,255}
+}{%
+\definecolor{mycol}{RGB}{0,0,0}
+}
+
+\usepackage{hyperref}
+\usepackage[]{url}
+
+\hypersetup{% 
+  pdftitle={CBAP Knowledge Areas},
+  pdfauthor={Dr. Uwe Ziegenhagen, uwe.ziegenhagen@db.com	},
+  pdfsubject={Babok Knowledge Areas},
+  pdfkeywords={Babok, CBAP, Knowledge Areas}
+}
+
+\newcommand{\file}[1]{\textattachfile{#1}{\textcolor{blue}{\LaTeX\ Sourcecode}}}
+
+\begin{document}  
+
+%\AddToShipoutPictureFG*{
+  %\put(35,25){\footnotesize Uwe Ziegenhagen, uwe.ziegenhagen@db.com, \file{\jobname.tex}	
+%}}
+
+\begin{center}
+\begin{tikzpicture}
+[
+    x=40mm,y=25mm,
+    mybox/.style={rectangle,rounded corners,xshift=1cm,yshift=1cm,minimum width=30mm, minimum height=22.5mm},
+    topline/.style={mybox,mycol,align=center,draw=black,fill=yellow,very thick,font=\bfseries},
+    botline/.style={mybox,mycol,align=center,draw=gray,fill=lime,very thick,font=\bfseries},
+    yelline/.style={mybox,mycol,align=center,draw=gray,fill=green,very thick,font=\bfseries},
+    pinkline/.style={mybox,mycol,align=center,draw=gray,fill=orange,very thick,font=\bfseries},
+    mablue/.style={mybox,mycol,align=center,draw=gray,fill=pink,very thick,font=\bfseries}
+]
+\node at (0,0) [topline] {Business Analysis \\ Planning  \& \\ Monitoring};
+\node at (1,0) [topline] {Elicitation};
+\node at (2,0) [topline] {Requirements \\ Management \&  \\ Communications};
+\node at (3,0) [topline] {Enterprise Analysis};
+\node at (4,0) [topline] {Requirements \\ Analysis};
+\node at (5,0) [topline] {Solution Assessment \\ \& Validation};
+\node at (6,0) [mablue] {Underlying  \\ Competencies};
+
+\node at (0,-1) [botline] {Plan BA Approach};
+\node at (0,-2) [botline] {Conduct \\ Stakeholder \\ Analysis};
+\node at (0,-3) [botline] {Plan BA Activities};
+\node at (0,-4) [botline] {Plan BA \\ Communication};
+\node at (0,-5) [botline] {Plan Requirements \\ Management \\ Process};
+\node at (0,-6) [botline] {Manage BA \\ Performance};
+
+\node at (1,-1) [yelline] {Prepare for \\ Elicitation};
+\node at (1,-2) [yelline] {Conduct \\ Elicitation \\ Activity};
+\node at (1,-3) [yelline] {Document \\ Elicitation \\ Results};
+\node at (1,-4) [yelline] {Confirm \\ Elicitation \\ Results};
+
+\node at (2,-1) [botline] {Manage Solution \\ Scope \& \\ Requirements};
+\node at (2,-2) [botline] {Manage \\ Requirements \\ Traceability};
+\node at (2,-3) [botline] {Maintain \\ Requirements \\ for Re-Use};
+\node at (2,-4) [botline] {Prepare \\ Requirements \\ Package};
+\node at (2,-5) [botline] {Communicate \\ Requirements};
+
+\node at (3,-1) [yelline] {Define \\ Business \\ Need};
+\node at (3,-2) [yelline] {Assess \\ Capability \\ Gaps};
+\node at (3,-3) [yelline] {Determine \\ Solution \\ Approach};
+\node at (3,-4) [yelline] {Define \\ Solution \\ Scope};
+\node at (3,-5) [yelline] {Define \\ Business \\ Case};
+
+\node at (4,-1) [botline] {Prioritize \\ Requirements};
+\node at (4,-2) [botline] {Organize \\ Requirements};
+\node at (4,-3) [botline] {Specify \& \\ Model \\ Requirements};
+\node at (4,-4) [botline] {Define \\ Assumption \& \\ Constraints};
+\node at (4,-5) [botline] {Verify \\ Requirements };
+\node at (4,-6) [botline] {Validate \\ Requirements};
+
+\node at (5,-1) [yelline] {Assess \\ Proposed \\ Solution};
+\node at (5,-2) [yelline] {Allocate \\ Requirements};
+\node at (5,-3) [yelline] {Assess \\ Organizational \\ Readiness};
+\node at (5,-4) [yelline] {Define \\ Transition \\ Requirements};
+\node at (5,-5) [yelline] {Validate \\ Solution};
+\node at (5,-6) [yelline] {Evaluate \\ Solution \\ Performance};
+
+\node at (6,-1) [pinkline] {Analytical \\ Thinking \& Problem \\ Solving };
+\node at (6,-2) [pinkline] {Behavioral \\ Characteristics};
+\node at (6,-3) [pinkline] {Business \\ Knowledge};
+\node at (6,-4) [pinkline] {Communication \\ Skills};
+\node at (6,-5) [pinkline] {Interaction \\ Skills};
+\node at (6,-6) [pinkline] {Software \\ Applications};
+\end{tikzpicture}
+\end{center}
+
+\end{document}
+
+\ifdraft{%
+}{%
+\definecolor{mycol}{RGB}{255,255,255}
+\begin{center}
+\begin{tikzpicture}
+[
+    x=40mm,y=25mm,
+    mybox/.style={rectangle,rounded corners,xshift=1cm,yshift=1cm,minimum width=35mm, minimum height=22.5mm},
+    topline/.style={mybox,mycol,align=center,draw=red,very thick,font=\bfseries},
+    botline/.style={mybox,mycol,align=center,draw=orange,very thick,font=\bfseries},
+    yelline/.style={mybox,mycol,align=center,draw=cyan,very thick,font=\bfseries},
+    pinkline/.style={mybox,mycol,align=center,draw=violet,very thick,font=\bfseries}
+]
+\node at (0,0) [topline] {Business Analysis \\ Planning  \& \\ Monitoring};
+\node at (1,0) [topline] {Elicitation};
+\node at (2,0) [topline] {Requirements \\ Management \&  \\ Communications};
+\node at (3,0) [topline] {Enterprise Analysis};
+\node at (4,0) [topline] {Requirements \\ Analysis};
+\node at (5,0) [topline] {Solution Assessment \\ \& Validation};
+\node at (6,0) [topline] {Underlying  \\ Competencies};
+
+\node at (0,-1) [botline] {Plan BA Approach};
+\node at (0,-2) [botline] {Conduct \\ Stakeholder \\ Analysis};
+\node at (0,-3) [botline] {Plan BA Activities};
+\node at (0,-4) [botline] {Plan BA \\ Communication};
+\node at (0,-5) [botline] {Plan Requirements \\ Management \\ Process};
+\node at (0,-6) [botline] {Manage BA \\ Performance};
+
+\node at (1,-1) [yelline] {Prepare for \\ Elicitation};
+\node at (1,-2) [yelline] {Conduct \\ Elicitation \\ Activity};
+\node at (1,-3) [yelline] {Document \\ Elicitation \\ Results};
+\node at (1,-4) [yelline] {Confirm \\ Elicitation \\ Results};
+
+\node at (2,-1) [botline] {Manage Solution \\ Scope \& \\ Requirements};
+\node at (2,-2) [botline] {Manage \\ Requirements \\ Traceability};
+\node at (2,-3) [botline] {Maintain \\ Requirements \\ for Re-Use};
+\node at (2,-4) [botline] {Prepare \\ Requirements \\ Package};
+\node at (2,-5) [botline] {Communicate \\ Requirements};
+
+\node at (3,-1) [yelline] {Define \\ Business \\ Need};
+\node at (3,-2) [yelline] {Assess \\ Capability \\ Gaps};
+\node at (3,-3) [yelline] {Determine \\ Solution \\ Approach};
+\node at (3,-4) [yelline] {Define \\ Solution \\ Scope};
+\node at (3,-5) [yelline] {Define \\ Business \\ Case};
+
+\node at (4,-1) [botline] {Prioritize \\ Requirements};
+\node at (4,-2) [botline] {Organize \\ Requirements};
+\node at (4,-3) [botline] {Specify \& \\ Model \\ Requirements};
+\node at (4,-4) [botline] {Define \\ Assumption \& \\ Constraints};
+\node at (4,-5) [botline] {Verify \\ Requirements };
+\node at (4,-6) [botline] {Validate \\ Requirements};
+
+\node at (5,-1) [yelline] {Assess \\ Proposed \\ Solution};
+\node at (5,-2) [yelline] {Allocate \\ Requirements};
+\node at (5,-3) [yelline] {Assess \\ Organizational \\ Readiness};
+\node at (5,-4) [yelline] {Define \\ Transition \\ Requirements};
+\node at (5,-5) [yelline] {Validate \\ Solution};
+\node at (5,-6) [yelline] {Evaluate \\ Solution \\ Performance};
+
+\node at (6,-1) [pinkline] {Analytical \\ Thinking \& Problem \\ Solving };
+\node at (6,-2) [pinkline] {Behavioral \\ Characteristics};
+\node at (6,-3) [pinkline] {Business \\ Knowledge};
+\node at (6,-4) [pinkline] {Communication \\ Skills};
+\node at (6,-5) [pinkline] {Interaction \\ Skills};
+\node at (6,-6) [pinkline] {Software \\ Applications};
+\end{tikzpicture}
+\end{center}}
+
+
+
+\end{document}
