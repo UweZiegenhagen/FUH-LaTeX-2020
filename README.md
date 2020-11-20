@@ -73,6 +73,16 @@ Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 * https://ctan.mc1.root.project-creative.net/info/first-packages/first-packages.html
 * ``Arara`` in TeXworks konfigurieren
 * ``luaLaTeX`` versus ``pdflatex``, Nutzung von Systemschriften in LaTeX
+
+Wechsel von ``pdflatex`` nach ``lualatex``
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+entfernen und 
+
+\usepackage{fontspec} hinzufügen, ggfalls noch entsprechende Schriften laden.
+
 * ``\input`` und ``\include``
 * Das ``subfiles`` Paket
 * Quellcode-Listings einfügen mit dem ``Listings`` Paket
