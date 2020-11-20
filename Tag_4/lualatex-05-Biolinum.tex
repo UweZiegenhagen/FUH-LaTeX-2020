@@ -1,0 +1,31 @@
+% !TEX TS-program = LuaLaTeX
+\documentclass[fontsize=12pt,ngerman]{scrartcl}
+\usepackage[a4paper]{geometry}
+\usepackage{fontspec,xcolor}
+ 
+\usepackage{xkeyval,polyglossia}
+\setmainlanguage[spelling=new]{german}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{paralist}
+\usepackage[]{blindtext}
+ 
+\setmainfont{Linux Libertine O}
+\renewcommand{\familydefault}{\sfdefault}
+ 
+\begin{document}
+ 
+\blindtext
+ 
+{\bfseries \blindtext}
+ 
+{\itshape \blindtext}
+ 
+{\itshape \bfseries \blindtext}
+ 
+\begin{equation}
+-\frac{p}{2} \pm \sqrt{ \left(\frac{p}{2} \right)^2 - q}
+\end{equation}
+ 
+ 
+\end{document}
