@@ -72,14 +72,14 @@ Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 * Zusammenfassung vom 3. Termin, Wiederholung
 * https://ctan.mc1.root.project-creative.net/info/first-packages/first-packages.html
 * ``Arara`` in TeXworks konfigurieren
+* ``luaLaTeX`` versus ``pdflatex``, Nutzung von Systemschriften in LaTeX
 * ``\input`` und ``\include``
 * Das ``subfiles`` Paket
-* Quellcode-Listings einfügen
+* Quellcode-Listings einfügen mit dem ``Listings`` Paket
 * Effizient TeXen mit ``Autohotkey``, automatischer Start siehe https://www.autohotkey.com/docs/FAQ.htm#Startup
 * Schöne Matrizen mit ``nicematrix``
-* Umrahmte (farbige) Boxen mit ``tcolorbox`` (``texdoc tcolorbox``)
-* Kurzeinführung ``TikZ``
-* ``luaLaTeX`` versus ``pdflatex``, Nutzung von Systemschriften in LaTeX
+* Umrahmte (farbige) Boxen mit ``tcolorbox`` (``texdoc tcolorbox``), alternativ siehe das ``mdframed`` Paket
+* Grafiken erstellen mit LaTeX-Paketen, Sehrsehrkurzeinführung ``TikZ``
 * Grundlagen der Automatisierung von Textsatz mit Python (Ein Weg, Serienbriefe zu erzeugen...)
 * Frage-und-Antwort-Teil
 
