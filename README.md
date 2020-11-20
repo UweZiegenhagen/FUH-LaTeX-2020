@@ -75,9 +75,9 @@ Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 * ``\input`` und ``\include``
 * Das ``subfiles`` Paket
 * Quellcode-Listings einfügen
-* Effizient TeXen mit`` Autohotkey``
+* Effizient TeXen mit ``Autohotkey``, automatischer Start siehe https://www.autohotkey.com/docs/FAQ.htm#Startup
 * Schöne Matrizen mit ``nicematrix``
-* Umrahmte (farbige) Boxen mit ``tcolorbox``
+* Umrahmte (farbige) Boxen mit ``tcolorbox`` (``texdoc tcolorbox``)
 * Kurzeinführung ``TikZ``
 * ``luaLaTeX`` versus ``pdflatex``, Nutzung von Systemschriften in LaTeX
 * Grundlagen der Automatisierung von Textsatz mit Python (Ein Weg, Serienbriefe zu erzeugen...)
