@@ -11,7 +11,7 @@ Der Kurs findet an mehreren Samstagen online statt, als Plattform nutzen wir Big
 * **Tag 1**: 10.10.2020
 * **Tag 2**: 31.10.2020
 * **Tag 3**: 07.11.2020
-* **Tag 4**: 21.11.2020
+* **Tag 4**: !!! Aufgrund einen familiären Notfalls muss ich diesen Termin leider verschieben !!!
 
 Jeweils von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15 Uhr.
 
@@ -67,6 +67,8 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 
 ### Tag 4 - Fortgeschrittenes
+
+!!! Aufgrund einen familiären Notfalls muss ich diesen Termin leider verschieben !!!
 
 * Fragen?
 * Zusammenfassung vom 3. Termin, Wiederholung
