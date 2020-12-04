@@ -1,0 +1,107 @@
+\documentclass[12pt,ngerman]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{paralist}
+\usepackage{xcolor}
+\usepackage{blindtext}
+\usepackage{microtype}
+
+\usepackage{empheq}
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{theorems}
+
+\newtcbtheorem[number within=section]{mytheo}{My Theorem}%
+{colback=green!5,colframe=green!35!black,fonttitle=\bfseries}{th}
+
+\begin{document}
+
+
+\begin{tcolorbox}
+Hallo Welt!
+\end{tcolorbox}
+
+
+\begin{tcolorbox}
+\blindtext
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=My nice heading]
+This is another \textbf{tcolorbox}.
+\tcblower
+Here, you see the lower part of the box.
+\end{tcolorbox}
+
+\begin{mytheo}{This is my title}{theoexample}
+This is the text of the theorem. The counter is automatically assigned and,
+in this example, prefixed with the section number. This theorem is numbered with
+\ref{th:theoexample}, it is given on page~\pageref{th:theoexample}.
+\end{mytheo}
+
+
+\begin{equation}
+\tcbset{fonttitle=\footnotesize}
+\tcboxmath[colback=yellow!25!white,colframe=blue]{ a^2 = 16 }
+\quad \Rightarrow \quad
+\tcboxmath[colback=blue!25!white,colframe=red,title=Implication]%
+{ a = 4 ~\vee~ a=-4. }
+\end{equation}
+
+
+\newtcbox{\otherbox}[1][]{nobeforeafter,math upper,tcbox raise base,
+enhanced,frame hidden,boxrule=0pt,interior style={top color=green!10!white,
+bottom color=green!10!white,middle color=green!50!yellow},
+fuzzy halo=1pt with green,#1}
+\begin{empheq}[box=\otherbox]{align}
+a&=\sin(z)\\
+E&=mc^2 + \int_a^b x\, dx
+\end{empheq}
+\begin{equation}
+\tcbhighmath{E} = \otherbox{mc^2}
+\end{equation}
+
+
+\newtcolorbox{mybox}[2][]{colback=red!5!white,
+colframe=red!75!black,fonttitle=\bfseries,
+colbacktitle=red!85!black,enhanced,
+attach boxed title to top center={yshift=-2mm},
+title=#2,#1}
+\begin{mybox}[colback=yellow]{Hello there}
+This is my own box with a mandatory title
+and options.
+\end{mybox}
+
+
+\begin{tcolorbox}[enhanced,
+size=minimal,auto outer arc,
+width=2.1cm,octogon arc,
+colback=red,colframe=white,colupper=white,
+fontupper=\fontsize{6mm}{6mm}\selectfont\bfseries\sffamily,
+halign=center,valign=center,
+square,arc is angular,
+borderline={0.2mm}{-1mm}{red} ]
+STOP
+\end{tcolorbox}
+
+
+
+\begin{tcolorbox}[enhanced,
+size=minimal,auto outer arc,
+width=2.1cm,octogon arc,
+colback=green,colframe=white,colupper=black,
+fontupper=\fontsize{6mm}{6mm}\selectfont\bfseries\sffamily,
+halign=center,valign=center,
+square,arc is angular,
+borderline={0.2mm}{-1mm}{green}]
+GO
+\end{tcolorbox}
+
+
+
+
+
+\end{document}

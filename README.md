@@ -11,15 +11,16 @@ Der Kurs findet an mehreren Samstagen online statt, als Plattform nutzen wir Big
 * **Tag 1**: 10.10.2020
 * **Tag 2**: 31.10.2020
 * **Tag 3**: 07.11.2020
-* **Tag 4**: !!! Aufgrund einen familiären Notfalls muss ich diesen Termin leider verschieben !!!
+* **Tag 4**: 05.12.2020
 
 Jeweils von 10:00 Uhr bis 12:00 Uhr und 13:00 Uhr bis 15 Uhr.
 
 ## Was wird benötigt
 
 * Ein Rechner (Laptop, Desktop) mit Windows oder MacOS (Linux geht auch, wenn die Kommunikationssoftware dafür verfügbar ist)
-* TeX Live 2020, herunterladen und installieren von tug.org/texlive. Linux: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
-* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor. TeX Studio und Visual Studio Code (mit der LaTeX Workshop Erweiterung von James Yu) kann ich ebenfalls empfehlen.
+* TeX Live 2020, herunterladen und installieren von tug.org/texlive. Linux: Bitte nicht aus den Distributionsquellen nehmen, sondern auch von tug.org installieren. Das TeX Live in den Distributionen ist oft nicht aktuell. Mac-User installieren bitte MacTeX (auch auf der tug.org Seite frei verfügbar)
+* Ein Editor zur Bearbeitung der TeX-Dateien: TeX Live bringt für Mac und Windows TeXworks mit, einen guten Editor, den ich gern benutze. TeX Studio und Visual Studio Code (mit der ``LaTeX Workshop`` Erweiterung von James Yu) kann ich ebenfalls sehr empfehlen.
+* Emacs mit AucTeX ist ebenfalls eine mächtige Kombination, auch für vim gibt es wohl LaTeX-Erweiterungen.
 
 ## Kursinhalte
 
@@ -28,6 +29,7 @@ Die Kursinhalte sind flexibel und orientieren sich am Bedarf der Teilnehmerinnen
 ### Tag 1 - Grundlagen
 
 * Vorstellung der Beteiligten
+* Was sind die Lernziele der Teilnehmerinnen und Teilnehmer
 * Vorstellung von DANTE e.V.
 * Historie von TeX und LaTeX
 * Check der Umgebungen bzw. Installationen
@@ -68,8 +70,6 @@ Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 
 ### Tag 4 - Fortgeschrittenes
 
-!!! Aufgrund einen familiären Notfalls muss ich diesen Termin leider verschieben !!!
-
 * Fragen?
 * Zusammenfassung vom 3. Termin, Wiederholung
 * https://ctan.mc1.root.project-creative.net/info/first-packages/first-packages.html
@@ -86,9 +86,8 @@ entfernen und
 \usepackage{fontspec} hinzufügen, ggfalls noch entsprechende Schriften laden.
 
 * ``\input`` und ``\include``
-* Das ``subfiles`` Paket
 * Quellcode-Listings einfügen mit dem ``Listings`` Paket
-* Effizient TeXen mit ``Autohotkey``, automatischer Start siehe https://www.autohotkey.com/docs/FAQ.htm#Startup
+* Effizient TeXen mit ``Autohotkey``, automatischer Start mit Windows siehe https://www.autohotkey.com/docs/FAQ.htm#Startup
 * Schöne Matrizen mit ``nicematrix``
 * Umrahmte (farbige) Boxen mit ``tcolorbox`` (``texdoc tcolorbox``), alternativ siehe das ``mdframed`` Paket
 * Grafiken erstellen mit LaTeX-Paketen, Sehrsehrkurzeinführung ``TikZ``
