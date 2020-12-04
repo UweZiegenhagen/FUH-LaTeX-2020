@@ -81,7 +81,7 @@ Wechsel von ``pdflatex`` nach ``lualatex``
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
-entfernen und 
+entfernen und
 
 \usepackage{fontspec} hinzufügen, ggfalls noch entsprechende Schriften laden.
 
