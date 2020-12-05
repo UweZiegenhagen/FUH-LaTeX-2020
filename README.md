@@ -70,10 +70,20 @@ Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 
 ### Tag 4 - Fortgeschrittenes
 
-* Fragen?
-* Zusammenfassung vom 3. Termin, Wiederholung
-* https://ctan.mc1.root.project-creative.net/info/first-packages/first-packages.html
-* ``Arara`` in TeXworks konfigurieren
+* Fragen zum letzten Termin?
+* Liste wichtiger Pakete: https://ctan.mc1.root.project-creative.net/info/first-packages/first-packages.html
+* ``Arara`` in TeXworks konfigurieren, siehe https://www.uweziegenhagen.de/?p=2928
+
+```
+%!TEX TS-program = Arara
+% arara: pdflatex: { draft : yes }
+% arara: pdflatex: { draft : yes }
+% arara: biber
+% arara: pdflatex
+% arara: pdflatex
+```
+
+* Alternativen dazu: ``latexmk``, ``gummi`` oder eigene ``make`` 
 * ``luaLaTeX`` versus ``pdflatex``, Nutzung von Systemschriften in LaTeX
 
 Wechsel von ``pdflatex`` nach ``lualatex``
@@ -85,7 +95,7 @@ entfernen und
 
 \usepackage{fontspec} hinzufügen, ggfalls noch entsprechende Schriften laden.
 
-* ``\input`` und ``\include``
+* Dokumente unterteilen mit ``\input`` und ``\include``
 * Quellcode-Listings einfügen mit dem ``Listings`` Paket
 * Effizient TeXen mit ``Autohotkey``, automatischer Start mit Windows siehe https://www.autohotkey.com/docs/FAQ.htm#Startup
 * Schöne Matrizen mit ``nicematrix``
