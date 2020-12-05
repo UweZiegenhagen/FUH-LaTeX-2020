@@ -42,7 +42,10 @@
 }
 
 \begin{document}
-    \begin{lstlisting}[language={[LaTeX]TeX}]
+
+
+
+    \begin{lstlisting}[language={[LaTeX]TeX},morekeywords={fernunihagen}]
 	\documentclass[12pt,ngerman]{scrartcl}
 	
 	\usepackage[utf8]{inputenc}
@@ -56,12 +59,13 @@
 	
 	\begin{document}
 	
+	\fernunihagen
 	
 	\end{document}
    \end{lstlisting}
    
 
-\begin{lstlisting}[language={Python}]
+\begin{lstlisting}[language={Python},morekeywords={copyfile, write, unlink}]
 from shutil import copyfile
 from os import unlink
  
@@ -86,6 +90,11 @@ unlink('./dtk-bibliography/dtk-bibliography.pdf')
 unlink('./dtk-bibliography/dtk-bibliography.tex')
 \end{lstlisting}
 
-\lstinputlisting[language={Python},basicstyle=\ttfamily\tiny,linerange={1-5,9-12},caption={Etwas Python-Code aus einer Datei},label={lis:py01}]{Pythoncode.py}
+\lstinputlisting[language={Python},basicstyle=\ttfamily\tiny,linerange={1-8},caption={Etwas Python-Code aus einer externen Datei},label={lis:py01}]{Pythoncode.py}
+
+Siehe Listing \ref{lis:py01} auf Seite \pageref{lis:py01}
+
+
+
    
 \end{document}
