@@ -83,25 +83,31 @@ Bitte Jabref von www.jabref.org installieren, kostet nichts und ist sehr gut.
 % arara: pdflatex
 ```
 
-* Alternativen dazu: ``latexmk``, ``gummi`` oder eigene ``make`` 
+* Alternativen dazu: ``latexmk``, ``gummi`` oder eigene ``make`` Skripte
 * ``luaLaTeX`` versus ``pdflatex``, Nutzung von Systemschriften in LaTeX
 
 Wechsel von ``pdflatex`` nach ``lualatex``
 
+```
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-
+```
 entfernen und
 
-\usepackage{fontspec} hinzufügen, ggfalls noch entsprechende Schriften laden.
+```
+\usepackage{fontspec}
+```
+
+hinzufügen, ggfalls noch entsprechende Schriften laden.
 
 * Dokumente unterteilen mit ``\input`` und ``\include``
 * Quellcode-Listings einfügen mit dem ``Listings`` Paket
-* Effizient TeXen mit ``Autohotkey``, automatischer Start mit Windows siehe https://www.autohotkey.com/docs/FAQ.htm#Startup
+* Effizient TeXen mit ``Autohotkey``, automatischer Start mit Windows siehe https://www.autohotkey.com/docs/FAQ.htm#Startup (Skript oder Verknüpfung darauf in den Ordner C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup legen)
 * Schöne Matrizen mit ``nicematrix``
 * Umrahmte (farbige) Boxen mit ``tcolorbox`` (``texdoc tcolorbox``), alternativ siehe das ``mdframed`` Paket
 * Grafiken erstellen mit LaTeX-Paketen, Sehrsehrkurzeinführung ``TikZ``
 * Grundlagen der Automatisierung von Textsatz mit Python (Ein Weg, Serienbriefe zu erzeugen...)
+* Lebensläufe mit ``europecv`` oder ``moderncv``
 * Frage-und-Antwort-Teil
 
 ## Literaturempfehlungen

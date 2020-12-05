@@ -1,0 +1,50 @@
+%!TEX TS-program = Arara
+% arara: lualatex: {shell: yes}
+\documentclass{scrartcl}
+
+\usepackage{listings}
+ 
+\lstset{literate=%
+    {Ö}{{\"O}}1
+    {Ä}{{\"A}}1
+    {Ü}{{\"U}}1
+    {ß}{{\ss}}1
+    {ü}{{\"u}}1
+    {ä}{{\"a}}1
+    {ö}{{\"o}}1
+    {~}{{\textasciitilde}}1
+}
+
+\usepackage{fontspec}%
+\setmainfont[%
+ItalicFont={Source Sans Pro Italic},
+BoldFont={Source Sans Pro Bold},
+BoldItalicFont={Source Sans Pro Bold Italic}]
+{Source Sans Pro}%
+
+\begin{document}
+
+    \begin{lstlisting}[language={[LaTeX]TeX},morekeywords={fernunihagen}]
+	\documentclass[12pt,ngerman]{scrartcl}
+	
+	\usepackage[utf8]{inputenc}
+	\usepackage[T1]{fontenc}
+	\usepackage{booktabs}
+	\usepackage{babel}
+	\usepackage{graphicx}
+	\usepackage{csquotes}
+	\usepackage{paralist}
+	\usepackage{xcolor}
+	
+	\begin{document}
+	
+	\fernunihagen
+	
+	\end{document}
+   \end{lstlisting}
+   
+
+
+
+   
+\end{document}
