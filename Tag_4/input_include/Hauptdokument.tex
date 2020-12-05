@@ -1,0 +1,22 @@
+%!TEX TS-program = Arara
+% arara: pdflatex: {shell: yes}
+\documentclass[12pt,ngerman,parskip=half]{scrreprt}
+\input{preamble}
+
+
+\begin{document}
+
+Hallo Hagen!
+
+\blindtext % Text im Haupdokument
+
+\input{Einleitung} % Text wird so eingesetzt, als wäre er im Hauptdokument geschrieben worden
+
+\include{Einleitung} % Zusätzliches \clearpage davor und dahinter
+
+\blindtext % Text im Haupdokument
+
+\include{Hauptteil}
+
+
+\end{document}
