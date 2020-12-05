@@ -1,5 +1,6 @@
 ﻿:*:fuh#::Fernuniversität Hagen
 
+
 :*:ch#::\chapter{{}{}}{LEFT}
 :*:s#::\section{{}{}}{LEFT}
 :*:ss#::\subsection{{}{}}{LEFT}
@@ -31,3 +32,25 @@
    FormatTime, Heute, %Heute%, yyyy-MM-dd
    Send, %Heute%
    Return
+   
+   
+   
+!e::
+InputBox, UserEnv, Environment, Please enter an environment!, , 240, 120
+If ErrorLevel
+	return
+Else 
+if( RegExMatch(UserEnv, "(.*?)(\d+)$", splitted) ) {
+	Send \begin{{}%splitted1%{}}{Enter}
+		Loop %splitted2% {
+			Send \item {Enter}
+		}
+	Send \end{{}%splitted1%{}}{Up}
+	count2 := splitted2 - 1 
+	Loop %count2% {
+		Send {Up}
+	}			
+} 
+Else 
+	Send \begin{{}%UserEnv%{}}{Enter 2}\end{{}%UserEnv%{}}{Up}
+return
